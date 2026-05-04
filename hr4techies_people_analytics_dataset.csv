@@ -1,0 +1,501 @@
+employee_id,employee_name,department,role,location,seniority,typeofcontribution,salary,revenue_generated,tenure_years,contract_type,performance_score,projects_completed,last_evaluation_score,promotion_last_2_years,engagement_score,training_hours,absenteeism_days,work_life_balance_score,skills,attrition_flag
+E001,Employee_1,Finance,Executive,Germany,Senior,support,84343,143660,8,Full-time,4.2,9,4.2832290311184185,0,3.31,11,7,4.66,Excel;Accounting,0
+E002,Employee_2,Finance,Executive,Spain,Junior,producer,83707,279306,3,Full-time,4.22,5,4.256965827544817,0,3.01,16,4,3.9,Excel;Accounting,0
+E003,Employee_3,IT,Specialist,UK,Mid,support,38433,149559,8,Full-time,3.77,2,3.6735119926400066,0,3.03,11,5,3.42,APIs;ML,0
+E004,Employee_4,HR,Manager,France,Mid,support,67065,121369,7,Full-time,4.79,9,4.927813539471261,1,4.2,56,4,4.17,Recruitment;HR Strategy,0
+E005,Employee_5,Finance,Specialist,Spain,Junior,support,69976,208661,1,Full-time,3.59,9,3.3956319290860337,0,3.33,17,2,4.58,Forecasting;Excel,0
+E006,Employee_6,HR,Manager,UK,Junior,producer,82251,141673,7,Full-time,4.73,6,4.821842471335226,0,4.25,36,2,3.94,HR Strategy;Recruitment,0
+E007,Employee_7,Sales,Engineer,Germany,Junior,producer,86537,345050,3,Full-time,3.47,8,3.460148089272845,0,3.51,13,4,3.5,Negotiation;Sales,0
+E008,Employee_8,Sales,Executive,UK,Junior,manager,46198,199964,9,Full-time,3.58,5,3.7370235993959913,0,3.32,37,8,3.64,Negotiation;Sales,0
+E009,Employee_9,IT,Analyst,Germany,Mid,manager,36776,120905,9,Full-time,4.64,2,4.4879461469334725,0,4.72,24,5,3.44,ML;SQL,0
+E010,Employee_10,IT,Manager,France,Mid,producer,74417,181111,2,Full-time,4.42,7,4.233220293160219,0,3.3,10,2,4.36,Python;ML,0
+E011,Employee_11,Finance,Analyst,France,Senior,manager,42688,158686,1,Full-time,4.46,7,4.538325122716353,1,3.74,45,2,4.42,Forecasting;Excel,0
+E012,Employee_12,Finance,Specialist,France,Junior,producer,49360,190772,9,Full-time,3.8,8,3.8165791895310264,0,4.04,16,9,4.96,Accounting;Forecasting,0
+E013,Employee_13,IT,Specialist,Spain,Junior,support,82260,325030,3,Full-time,4.77,7,4.881950218343049,0,3.38,20,0,3.32,Python;APIs,0
+E014,Employee_14,IT,Analyst,UK,Junior,manager,76940,236166,9,Full-time,3.57,5,3.46489963499872,0,3.61,29,7,4.3,APIs;SQL,0
+E015,Employee_15,Finance,Analyst,UK,Senior,manager,75525,217197,6,Part-time,3.53,3,3.47003136307787,0,3.49,56,0,3.39,Accounting;Forecasting,0
+E016,Employee_16,Sales,Specialist,UK,Senior,producer,74080,183604,6,Full-time,3.09,10,3.2712287388095813,0,4.99,55,4,4.14,Sales;Negotiation,0
+E017,Employee_17,Marketing,Executive,Spain,Senior,manager,80336,383728,3,Full-time,3.63,9,3.513567487046144,0,3.34,32,1,3.51,SEO;Analytics,0
+E018,Employee_18,HR,Engineer,Spain,Junior,manager,70328,304714,3,Full-time,4.4,9,4.565296221022589,0,3.72,45,3,4.3,Coaching;Recruitment,0
+E019,Employee_19,Finance,Analyst,Germany,Senior,support,88510,143899,9,Full-time,3.75,7,3.7863333042276044,0,3.19,51,5,3.61,Excel;Forecasting,0
+E020,Employee_20,Marketing,Engineer,France,Junior,manager,84843,142611,4,Full-time,3.43,4,3.4849719605992826,1,4.25,22,1,4.03,Analytics;SEO,0
+E021,Employee_21,IT,Analyst,UK,Mid,support,77030,231020,5,Full-time,3.5,11,3.3625748170684346,0,3.37,57,8,4.32,SQL;ML,0
+E022,Employee_22,Marketing,Executive,Spain,Senior,manager,38130,59115,5,Full-time,3.5,5,3.3701321079557354,0,3.71,35,4,3.95,Analytics;Content,0
+E023,Employee_23,Marketing,Manager,Germany,Mid,manager,44069,162637,1,Full-time,4.27,5,4.316340465755965,1,3.09,11,0,4.73,SEO;Content,0
+E024,Employee_24,Finance,Manager,Germany,Senior,producer,65195,240620,1,Part-time,3.26,11,3.1426737439506978,0,4.62,21,1,3.08,Accounting;Excel,0
+E025,Employee_25,IT,Manager,Germany,Junior,producer,79049,255812,5,Full-time,4.36,9,4.454028417521554,1,3.68,45,9,3.85,AWS;SQL,0
+E026,Employee_26,Finance,Manager,Spain,Junior,producer,64911,251819,7,Full-time,3.68,10,3.631091554470518,0,4.86,29,8,3.64,Forecasting;Excel,0
+E027,Employee_27,IT,Specialist,France,Junior,manager,37400,144689,4,Full-time,4.69,6,4.526681658903393,0,3.71,30,3,4.89,SQL;AWS,0
+E028,Employee_28,HR,Manager,Germany,Senior,producer,52925,144390,2,Part-time,4.1,10,4.2046042526869885,0,3.88,47,6,3.85,Recruitment;Coaching,0
+E029,Employee_29,HR,Analyst,Germany,Mid,producer,88561,247727,4,Full-time,3.16,8,3.3544004255291484,1,3.17,15,2,4.55,Recruitment;Coaching,1
+E030,Employee_30,Sales,Manager,Spain,Mid,manager,58178,182697,4,Full-time,3.22,10,3.3176846627773195,0,3.99,37,8,3.75,Negotiation;Sales,0
+E031,Employee_31,IT,Executive,Spain,Mid,support,32105,148293,6,Part-time,3.02,6,2.9211960671956962,0,4.94,27,8,3.43,AWS;ML,0
+E032,Employee_32,Sales,Engineer,UK,Senior,producer,43323,107043,4,Full-time,4.92,11,4.8117578982819795,0,3.12,46,8,3.52,CRM;Negotiation,0
+E033,Employee_33,IT,Engineer,Spain,Junior,producer,85284,399832,6,Part-time,4.63,6,4.675366078374315,0,4.37,39,1,4.1,AWS;SQL,0
+E034,Employee_34,IT,Manager,Spain,Senior,manager,77280,340192,1,Full-time,3.75,3,3.5647287470543967,0,4.5,30,6,4.73,SQL;AWS,0
+E035,Employee_35,Sales,Executive,Germany,Senior,producer,53524,125449,9,Full-time,4.45,4,4.3598927188103636,0,4.51,10,0,4.51,CRM;Sales,0
+E036,Employee_36,HR,Manager,Spain,Mid,manager,73125,357428,9,Full-time,4.66,8,4.762054902269448,0,3.62,11,2,4.81,Coaching;Recruitment,0
+E037,Employee_37,HR,Manager,UK,Mid,producer,36941,121867,8,Part-time,4.11,8,4.119440910406005,0,3.18,38,3,3.92,Recruitment;HR Strategy,0
+E038,Employee_38,IT,Specialist,UK,Junior,support,57169,201736,3,Full-time,4.24,8,4.091218335583109,0,3.69,25,7,3.36,SQL;ML,0
+E039,Employee_39,Sales,Analyst,Germany,Junior,producer,79823,166931,6,Full-time,3.34,2,3.3537694014930093,0,3.38,55,1,3.26,Sales;CRM,1
+E040,Employee_40,Sales,Engineer,France,Mid,manager,40488,82976,1,Full-time,3.96,2,3.7938068030722727,0,4.38,24,7,3.97,CRM;Sales,0
+E041,Employee_41,HR,Executive,Germany,Mid,support,34621,154255,2,Full-time,3.3,4,3.2588655330016327,0,3.27,46,9,4.13,HR Strategy;Recruitment,1
+E042,Employee_42,HR,Specialist,UK,Junior,support,69056,260401,2,Full-time,3.69,7,3.7247364472083517,1,3.95,58,2,3.76,Recruitment;HR Strategy,0
+E043,Employee_43,Finance,Manager,Spain,Mid,producer,40167,61309,5,Full-time,4.0,8,3.995123920323495,1,3.66,39,7,4.79,Forecasting;Excel,0
+E044,Employee_44,Sales,Executive,France,Senior,support,46389,202244,1,Full-time,3.8,7,3.8674572879697724,1,4.94,24,7,3.95,Sales;Negotiation,0
+E045,Employee_45,Marketing,Manager,France,Mid,support,56386,224151,6,Full-time,3.4,5,3.3282568768638057,0,4.47,15,1,3.91,Content;Analytics,0
+E046,Employee_46,HR,Specialist,Germany,Mid,producer,81212,122588,9,Full-time,4.37,9,4.412440752422335,1,3.18,40,0,4.7,Coaching;Recruitment,0
+E047,Employee_47,Marketing,Analyst,France,Junior,manager,49019,81779,8,Full-time,3.76,6,3.6406509280190975,0,4.85,30,4,4.63,SEO;Content,0
+E048,Employee_48,HR,Specialist,France,Junior,support,44060,176162,3,Full-time,4.18,2,4.2790437520705,0,4.37,34,0,4.8,Coaching;HR Strategy,0
+E049,Employee_49,Marketing,Analyst,Germany,Senior,manager,31970,63538,1,Full-time,3.86,8,3.8892603397029553,1,3.67,42,4,4.56,Analytics;Content,0
+E050,Employee_50,Finance,Manager,UK,Mid,producer,67380,127160,4,Full-time,4.75,5,4.708914916224147,1,3.68,14,3,4.44,Accounting;Excel,0
+E051,Employee_51,Sales,Analyst,UK,Mid,manager,89178,240676,6,Full-time,4.2,11,4.378913335844726,0,4.65,22,7,4.01,Negotiation;Sales,0
+E052,Employee_52,Finance,Analyst,France,Junior,support,83028,300852,6,Full-time,4.41,9,4.546175852792169,1,3.31,10,4,4.97,Excel;Accounting,0
+E053,Employee_53,IT,Engineer,Spain,Senior,support,83173,140700,9,Full-time,4.04,10,3.8418528092018414,0,4.18,34,9,4.84,AWS;Python,0
+E054,Employee_54,HR,Analyst,Germany,Junior,manager,36783,77882,7,Full-time,3.45,6,3.6159383604272404,0,3.9,52,5,3.44,Recruitment;Coaching,0
+E055,Employee_55,IT,Engineer,Germany,Junior,producer,79840,171306,7,Full-time,4.11,8,4.0807155621347,1,4.72,41,0,3.07,APIs;AWS,0
+E056,Employee_56,Sales,Manager,UK,Mid,support,36645,74878,1,Full-time,3.88,8,4.058446184853453,0,3.8,19,2,4.29,Negotiation;Sales,0
+E057,Employee_57,Finance,Manager,Germany,Senior,support,45708,176050,8,Full-time,3.82,6,3.6914178648217333,0,4.1,56,7,3.2,Excel;Accounting,0
+E058,Employee_58,Sales,Specialist,UK,Junior,support,85764,318728,1,Full-time,3.81,4,3.6591107558650835,1,3.65,38,1,4.79,Negotiation;CRM,0
+E059,Employee_59,Finance,Analyst,France,Mid,producer,45358,122837,9,Full-time,3.76,4,3.9393813227848624,1,4.18,33,0,4.74,Excel;Forecasting,0
+E060,Employee_60,IT,Manager,Spain,Senior,producer,57856,139005,6,Full-time,3.54,5,3.392910484450132,1,4.08,43,6,4.37,ML;APIs,0
+E061,Employee_61,Finance,Engineer,UK,Mid,support,56657,106120,6,Full-time,4.11,10,4.016599357348353,1,4.3,43,8,3.99,Accounting;Excel,0
+E062,Employee_62,IT,Manager,UK,Junior,manager,54027,220598,3,Full-time,4.54,4,4.438139643872528,0,3.84,49,3,4.44,APIs;Python,0
+E063,Employee_63,Marketing,Engineer,France,Mid,support,70483,314525,2,Full-time,4.08,3,3.9226393012535086,0,3.32,26,0,3.99,SEO;Content,0
+E064,Employee_64,HR,Engineer,France,Senior,support,54354,133303,2,Full-time,4.64,6,4.476632829330653,1,4.6,26,9,4.38,HR Strategy;Recruitment,0
+E065,Employee_65,Finance,Analyst,France,Senior,manager,81860,403735,2,Full-time,4.52,11,4.340638322663484,0,4.45,41,9,4.18,Forecasting;Accounting,0
+E066,Employee_66,HR,Executive,Germany,Mid,producer,58921,128099,8,Part-time,3.63,8,3.748136735183639,1,3.24,48,2,3.64,Recruitment;Coaching,0
+E067,Employee_67,IT,Analyst,UK,Junior,support,43409,126567,7,Full-time,4.77,2,4.785360596152315,0,4.06,22,1,4.04,Python;ML,0
+E068,Employee_68,Sales,Manager,UK,Mid,support,89805,156719,4,Full-time,3.0,2,2.960772365443697,0,3.37,25,7,3.54,Sales;Negotiation,1
+E069,Employee_69,IT,Specialist,UK,Junior,manager,40816,183054,2,Full-time,3.48,10,3.3909062582787093,1,3.22,24,8,3.22,APIs;SQL,1
+E070,Employee_70,Marketing,Executive,Germany,Junior,manager,71898,259033,2,Full-time,4.18,5,4.005994563793157,0,4.96,38,5,4.22,Analytics;Content,0
+E071,Employee_71,HR,Analyst,Germany,Mid,manager,79976,344112,6,Part-time,3.44,2,3.447304146670557,0,3.37,58,9,4.03,Coaching;Recruitment,1
+E072,Employee_72,IT,Analyst,Spain,Senior,manager,84028,379003,9,Full-time,3.45,10,3.267750665413295,1,4.07,51,8,3.66,SQL;AWS,0
+E073,Employee_73,HR,Specialist,UK,Senior,manager,34133,60881,5,Part-time,3.52,3,3.5180586108055896,0,4.45,38,2,4.65,Coaching;Recruitment,0
+E074,Employee_74,Sales,Executive,France,Junior,producer,64080,131408,9,Full-time,4.76,10,4.932036140203895,0,4.59,36,5,3.38,Negotiation;Sales,0
+E075,Employee_75,Marketing,Manager,France,Junior,support,79138,182032,7,Full-time,4.76,5,4.782472694015903,1,3.01,21,6,3.39,Analytics;Content,0
+E076,Employee_76,Sales,Engineer,France,Junior,producer,64832,274204,6,Full-time,3.23,8,3.246506631470444,1,3.75,37,4,3.21,CRM;Sales,0
+E077,Employee_77,Sales,Engineer,France,Mid,support,38073,170698,4,Full-time,3.95,5,4.053305278371609,0,3.12,20,0,3.65,CRM;Negotiation,0
+E078,Employee_78,Sales,Analyst,Spain,Mid,producer,60678,112720,9,Full-time,3.89,8,4.020368306319959,0,3.55,41,1,4.55,Sales;CRM,0
+E079,Employee_79,Sales,Analyst,Spain,Junior,support,74413,220935,4,Full-time,3.3,10,3.276919504952364,0,3.86,47,1,3.43,Negotiation;Sales,0
+E080,Employee_80,Finance,Manager,UK,Senior,producer,53019,240715,5,Full-time,3.95,3,4.0544095963772,0,4.94,53,4,4.82,Accounting;Excel,0
+E081,Employee_81,Finance,Engineer,France,Mid,producer,89597,197277,9,Full-time,4.2,7,4.232788560765759,0,4.21,33,7,3.62,Forecasting;Accounting,0
+E082,Employee_82,Marketing,Manager,UK,Mid,support,60015,236005,1,Part-time,3.79,10,3.605847530139343,0,4.95,33,8,3.48,Analytics;Content,0
+E083,Employee_83,Finance,Specialist,Spain,Junior,manager,38905,131103,9,Full-time,4.55,2,4.679805618758733,0,4.88,48,1,4.95,Excel;Accounting,0
+E084,Employee_84,HR,Manager,France,Senior,support,33041,63926,6,Full-time,3.08,10,2.900788513460589,0,4.34,59,7,4.89,Coaching;Recruitment,0
+E085,Employee_85,Sales,Analyst,Germany,Mid,producer,57961,120211,2,Full-time,4.57,8,4.630117674349382,0,3.96,28,6,3.94,Sales;Negotiation,0
+E086,Employee_86,Marketing,Executive,UK,Senior,support,56911,130872,8,Part-time,4.0,4,3.8326105958209706,0,4.11,38,5,3.06,Content;Analytics,0
+E087,Employee_87,Finance,Engineer,France,Mid,producer,76804,208198,4,Full-time,4.45,3,4.596812598448979,0,4.49,45,9,4.45,Accounting;Excel,0
+E088,Employee_88,HR,Specialist,UK,Mid,producer,75350,168581,2,Full-time,3.55,2,3.402627074050904,1,4.18,57,6,4.27,Coaching;Recruitment,0
+E089,Employee_89,HR,Executive,France,Junior,producer,74965,229285,8,Full-time,3.98,5,4.0171803405739706,0,3.49,34,8,3.8,HR Strategy;Coaching,0
+E090,Employee_90,Marketing,Engineer,Germany,Junior,manager,86214,180545,9,Full-time,3.91,5,3.945153748444155,1,3.47,29,8,4.21,Content;SEO,0
+E091,Employee_91,Finance,Executive,Germany,Junior,support,66336,229090,4,Full-time,4.41,3,4.259188323411851,0,3.89,35,0,3.24,Accounting;Excel,0
+E092,Employee_92,Marketing,Analyst,UK,Junior,producer,59856,190320,2,Full-time,4.01,10,4.042044891878187,0,3.08,52,1,3.69,SEO;Analytics,0
+E093,Employee_93,Marketing,Specialist,Spain,Mid,producer,73753,299282,6,Full-time,4.47,7,4.372122609891372,0,3.32,35,9,3.04,Analytics;SEO,0
+E094,Employee_94,HR,Engineer,Spain,Senior,support,72823,349045,5,Full-time,4.59,10,4.432637212123196,0,4.84,59,5,3.64,HR Strategy;Recruitment,0
+E095,Employee_95,IT,Executive,France,Junior,manager,82980,241844,4,Full-time,4.13,7,4.290550259835378,1,4.48,32,2,4.74,APIs;ML,0
+E096,Employee_96,IT,Executive,Spain,Senior,support,53616,153339,9,Full-time,3.73,2,3.7077677811004808,0,3.79,20,2,3.34,ML;Python,0
+E097,Employee_97,Sales,Executive,Spain,Mid,producer,36471,98266,5,Full-time,4.04,6,3.938427863519199,0,3.96,52,6,4.63,CRM;Sales,0
+E098,Employee_98,Sales,Analyst,Germany,Junior,producer,54596,253495,9,Full-time,3.39,4,3.2141069561158244,1,3.02,31,2,3.2,Sales;Negotiation,1
+E099,Employee_99,Marketing,Specialist,France,Mid,manager,66378,241361,2,Full-time,4.86,5,4.989269606238264,0,4.06,16,9,4.6,Content;SEO,0
+E100,Employee_100,IT,Manager,UK,Junior,support,36441,158704,8,Full-time,4.84,8,4.895194082317319,0,3.85,37,8,4.59,ML;Python,0
+E101,Employee_101,Marketing,Manager,France,Junior,support,65993,295589,7,Full-time,3.51,3,3.616662454080162,0,3.6,59,4,3.34,SEO;Content,0
+E102,Employee_102,HR,Engineer,Germany,Senior,support,44996,163102,9,Full-time,3.19,10,3.188706743543668,1,3.05,44,6,4.39,Coaching;HR Strategy,1
+E103,Employee_103,Marketing,Engineer,Germany,Junior,manager,85754,229846,7,Full-time,4.98,5,4.814263299838573,1,3.26,12,8,3.65,SEO;Content,0
+E104,Employee_104,IT,Specialist,France,Junior,support,36704,137294,8,Full-time,4.66,3,4.732052772441381,0,4.34,12,5,4.34,ML;Python,0
+E105,Employee_105,Sales,Manager,UK,Senior,producer,76877,162484,9,Full-time,3.67,11,3.5086705798586877,0,4.16,25,0,3.6,CRM;Negotiation,0
+E106,Employee_106,Marketing,Specialist,France,Senior,producer,78231,347902,5,Full-time,3.04,7,2.8756497728464065,1,4.47,42,4,4.65,SEO;Analytics,0
+E107,Employee_107,HR,Executive,UK,Mid,producer,46163,83404,9,Full-time,3.61,4,3.5687926068297133,0,3.53,13,1,4.03,Coaching;HR Strategy,0
+E108,Employee_108,Sales,Specialist,UK,Junior,manager,54819,239069,3,Full-time,3.42,11,3.56722267604298,1,4.86,25,6,3.61,Negotiation;Sales,0
+E109,Employee_109,Marketing,Analyst,France,Mid,manager,86154,322509,9,Full-time,4.39,7,4.315491076477638,0,3.69,10,5,4.66,Content;SEO,0
+E110,Employee_110,IT,Engineer,France,Junior,producer,78244,181051,4,Full-time,3.24,7,3.040133002448196,0,3.96,11,6,3.3,AWS;SQL,0
+E111,Employee_111,HR,Engineer,France,Mid,support,85677,423490,3,Full-time,4.99,6,4.8385539757689715,0,3.12,16,0,4.02,Coaching;HR Strategy,0
+E112,Employee_112,IT,Executive,France,Senior,manager,64171,191954,5,Full-time,3.61,4,3.557103740350916,0,4.25,23,6,4.47,Python;AWS,0
+E113,Employee_113,Sales,Executive,UK,Mid,support,67605,247861,5,Full-time,3.52,6,3.3995425111101185,0,4.52,41,3,3.74,Sales;Negotiation,0
+E114,Employee_114,Sales,Executive,France,Senior,manager,59300,187747,9,Full-time,3.98,7,3.9369574886113896,1,3.3,58,8,3.2,Negotiation;Sales,0
+E115,Employee_115,IT,Manager,France,Junior,producer,72080,316284,7,Full-time,4.68,7,4.734667872866883,0,3.08,32,7,4.76,SQL;ML,0
+E116,Employee_116,Marketing,Executive,France,Junior,support,58758,90627,5,Full-time,4.43,9,4.371300563400825,0,3.14,20,3,4.55,Content;SEO,0
+E117,Employee_117,Finance,Analyst,France,Senior,manager,57065,89780,1,Full-time,3.2,9,3.249865427541706,0,4.32,59,2,3.24,Excel;Accounting,0
+E118,Employee_118,IT,Engineer,UK,Junior,producer,87721,170031,8,Full-time,3.96,6,4.128118872487763,0,4.79,41,1,3.26,ML;APIs,0
+E119,Employee_119,IT,Engineer,UK,Senior,manager,84093,399367,3,Full-time,3.88,9,4.076966160195788,0,4.23,39,6,4.76,APIs;SQL,0
+E120,Employee_120,Marketing,Executive,Germany,Mid,support,45997,174630,6,Full-time,4.68,10,4.854955226598848,0,4.46,27,1,3.26,SEO;Content,0
+E121,Employee_121,Sales,Manager,Spain,Senior,manager,56062,190489,1,Full-time,4.01,7,4.036008797143606,0,4.68,48,8,4.52,CRM;Negotiation,0
+E122,Employee_122,HR,Manager,France,Junior,support,85147,247371,2,Full-time,4.45,11,4.546939220229004,1,4.98,36,1,3.71,HR Strategy;Recruitment,0
+E123,Employee_123,Finance,Specialist,Spain,Mid,manager,73241,161766,2,Full-time,4.52,5,4.450772646535231,0,3.07,15,7,4.0,Excel;Accounting,0
+E124,Employee_124,Marketing,Specialist,UK,Mid,producer,77639,116969,7,Full-time,3.43,7,3.2967540471419485,0,3.28,54,3,3.8,SEO;Content,1
+E125,Employee_125,Marketing,Analyst,France,Junior,manager,83583,267724,2,Full-time,3.45,4,3.4493022729053817,0,4.41,31,7,3.67,SEO;Analytics,0
+E126,Employee_126,Marketing,Specialist,Spain,Senior,support,87775,204120,4,Full-time,3.75,10,3.923245332537423,0,3.24,26,5,4.27,Content;SEO,0
+E127,Employee_127,Finance,Analyst,France,Senior,producer,44472,219191,3,Full-time,4.9,2,4.9343240583887615,0,3.41,15,0,4.86,Forecasting;Excel,0
+E128,Employee_128,Sales,Manager,Spain,Senior,producer,35017,105860,5,Full-time,4.75,11,4.58224060550285,1,4.68,59,2,3.87,Sales;Negotiation,0
+E129,Employee_129,IT,Specialist,Spain,Junior,manager,37710,93883,6,Full-time,4.85,4,4.760244935471578,1,3.94,19,5,3.86,AWS;ML,0
+E130,Employee_130,IT,Executive,Spain,Senior,manager,32643,95932,7,Full-time,4.24,3,4.3329794927352365,0,4.12,33,6,3.79,ML;Python,0
+E131,Employee_131,Marketing,Manager,France,Junior,producer,58228,181890,9,Part-time,4.31,10,4.18320617769389,0,3.4,13,9,3.18,Analytics;SEO,0
+E132,Employee_132,IT,Engineer,Spain,Junior,support,63340,251929,1,Full-time,4.72,7,4.858767491235423,0,4.45,14,1,4.33,APIs;ML,0
+E133,Employee_133,Sales,Executive,UK,Senior,support,57733,179396,3,Full-time,3.58,8,3.7288542800089908,0,4.57,13,3,4.04,Negotiation;Sales,0
+E134,Employee_134,Finance,Specialist,France,Mid,manager,79050,272954,2,Full-time,4.89,4,5.053688082344624,0,4.12,44,5,3.74,Forecasting;Excel,0
+E135,Employee_135,Sales,Manager,France,Senior,manager,62658,114609,9,Full-time,3.88,6,3.8049396407542053,0,3.39,24,7,4.04,CRM;Sales,0
+E136,Employee_136,HR,Analyst,UK,Junior,producer,30258,108728,7,Full-time,4.79,6,4.883054093880333,1,3.34,46,3,4.6,Coaching;Recruitment,0
+E137,Employee_137,Sales,Engineer,Spain,Senior,support,45149,87070,2,Full-time,3.64,7,3.831912983141809,0,4.98,36,4,4.12,Sales;Negotiation,0
+E138,Employee_138,IT,Specialist,Spain,Mid,producer,54217,137587,6,Full-time,3.16,4,3.2638329640458528,1,4.46,11,8,3.72,Python;AWS,0
+E139,Employee_139,Finance,Manager,Spain,Junior,support,85451,170637,9,Full-time,4.65,3,4.749530534785323,0,3.2,57,5,4.48,Excel;Forecasting,0
+E140,Employee_140,Sales,Analyst,Germany,Junior,support,88067,186004,9,Full-time,4.48,2,4.614816450097177,0,3.21,12,3,4.73,CRM;Negotiation,0
+E141,Employee_141,Marketing,Analyst,France,Junior,producer,58276,243665,3,Full-time,3.82,3,3.8803074190234987,1,4.52,36,6,3.34,SEO;Analytics,0
+E142,Employee_142,Finance,Executive,France,Mid,producer,76738,126394,8,Full-time,4.95,7,4.862014931820196,1,3.22,28,2,4.65,Forecasting;Excel,0
+E143,Employee_143,Finance,Specialist,France,Junior,support,78454,263947,3,Full-time,4.24,9,4.321474390984319,0,4.12,49,0,3.48,Accounting;Forecasting,0
+E144,Employee_144,Finance,Engineer,UK,Mid,producer,59492,99262,4,Full-time,3.59,3,3.6571218732905626,0,3.6,50,7,3.37,Excel;Forecasting,0
+E145,Employee_145,Marketing,Engineer,UK,Mid,producer,89659,298121,5,Full-time,4.17,6,4.209591403270884,0,4.99,18,8,4.34,Analytics;Content,0
+E146,Employee_146,IT,Executive,UK,Senior,support,62174,123187,3,Full-time,3.16,7,3.202835831487502,0,4.82,29,8,4.41,Python;SQL,0
+E147,Employee_147,Finance,Specialist,UK,Mid,manager,60795,191816,9,Full-time,3.98,8,3.9427887638537054,1,4.3,27,0,3.08,Excel;Accounting,0
+E148,Employee_148,Sales,Analyst,Germany,Mid,manager,54000,196437,4,Full-time,3.9,7,4.041654399060201,0,3.95,17,3,3.22,Sales;CRM,0
+E149,Employee_149,Marketing,Executive,UK,Junior,producer,47087,136060,5,Full-time,4.03,2,3.875535357390641,0,3.59,48,6,4.75,Analytics;Content,0
+E150,Employee_150,Sales,Analyst,France,Senior,support,47740,140287,8,Full-time,4.86,2,4.989516153688518,1,3.33,14,7,4.73,Sales;CRM,0
+E151,Employee_151,Marketing,Engineer,UK,Senior,producer,31875,98711,2,Full-time,4.37,9,4.470471219123367,0,3.23,24,8,4.88,Content;SEO,0
+E152,Employee_152,IT,Manager,UK,Mid,support,64610,303441,9,Full-time,4.19,4,4.279589222186438,0,3.02,11,5,4.66,ML;APIs,0
+E153,Employee_153,Finance,Analyst,Spain,Senior,producer,64624,279697,9,Full-time,3.17,10,2.996953821914209,0,3.8,52,1,3.81,Forecasting;Accounting,0
+E154,Employee_154,IT,Executive,Germany,Mid,support,66027,274522,7,Full-time,3.45,11,3.3980209338697023,0,3.77,42,7,3.75,APIs;SQL,0
+E155,Employee_155,Marketing,Engineer,France,Junior,manager,48990,182691,1,Full-time,3.31,6,3.3224341379540974,1,3.05,21,5,3.91,Content;Analytics,1
+E156,Employee_156,HR,Executive,Spain,Mid,manager,72359,118414,6,Part-time,4.95,11,4.908173707197166,0,4.06,24,4,3.58,Recruitment;HR Strategy,0
+E157,Employee_157,Marketing,Executive,France,Mid,manager,38315,168336,1,Full-time,3.63,5,3.4423750578925367,1,4.78,31,3,4.96,Content;Analytics,0
+E158,Employee_158,Marketing,Manager,UK,Junior,manager,51300,123513,3,Full-time,4.67,6,4.606979191533886,0,3.88,53,6,4.09,Analytics;Content,0
+E159,Employee_159,Marketing,Analyst,Spain,Junior,producer,88478,360195,2,Full-time,4.63,10,4.747008556785167,0,3.41,48,4,3.3,Content;Analytics,0
+E160,Employee_160,Marketing,Specialist,UK,Mid,support,82882,226857,6,Full-time,3.26,8,3.109928325586739,1,4.19,29,8,4.75,Analytics;SEO,0
+E161,Employee_161,Sales,Analyst,Germany,Mid,manager,68635,221002,1,Full-time,4.51,8,4.464616202729211,0,3.98,59,0,4.73,Sales;CRM,0
+E162,Employee_162,HR,Specialist,Spain,Senior,support,52190,114904,9,Full-time,4.53,2,4.586079324623849,0,4.15,17,2,3.62,HR Strategy;Coaching,0
+E163,Employee_163,Marketing,Executive,UK,Senior,manager,54045,211155,3,Full-time,3.44,11,3.493017643986331,0,4.47,21,1,3.67,SEO;Content,0
+E164,Employee_164,IT,Analyst,Germany,Senior,manager,86689,134376,1,Full-time,4.35,6,4.446190452781408,0,4.66,49,7,4.54,AWS;SQL,0
+E165,Employee_165,Sales,Manager,UK,Senior,manager,82327,130549,3,Full-time,3.8,3,3.6024354992959355,0,4.45,47,1,3.15,CRM;Negotiation,0
+E166,Employee_166,HR,Specialist,France,Mid,support,70123,156997,2,Full-time,3.29,9,3.2070060364282966,0,4.42,36,5,3.64,HR Strategy;Recruitment,0
+E167,Employee_167,IT,Engineer,Spain,Junior,support,52173,196554,6,Full-time,4.96,8,4.9612335803119345,0,4.21,19,3,4.25,Python;ML,0
+E168,Employee_168,HR,Specialist,UK,Mid,support,71971,138172,7,Full-time,3.61,8,3.473449657810551,1,3.58,43,8,4.5,HR Strategy;Coaching,0
+E169,Employee_169,IT,Manager,Spain,Junior,support,61897,219204,8,Full-time,4.43,6,4.606179402294469,0,4.19,37,8,3.72,AWS;SQL,0
+E170,Employee_170,Finance,Specialist,UK,Mid,support,78014,141401,7,Full-time,4.89,2,5.06206838617537,1,3.84,19,6,3.51,Forecasting;Excel,0
+E171,Employee_171,Marketing,Engineer,Spain,Senior,producer,85056,269110,3,Full-time,4.35,11,4.1919232259990284,0,4.89,48,8,3.95,SEO;Analytics,0
+E172,Employee_172,Sales,Specialist,Spain,Junior,producer,39083,115501,2,Full-time,4.72,10,4.867905270672684,1,3.37,31,0,4.59,Negotiation;CRM,0
+E173,Employee_173,Marketing,Manager,Germany,Junior,manager,48135,180839,5,Full-time,4.86,7,4.7396861099576215,1,3.25,52,2,4.33,Analytics;Content,0
+E174,Employee_174,HR,Executive,UK,Senior,manager,32100,50321,4,Part-time,4.38,4,4.377145833778979,0,3.48,26,5,3.53,HR Strategy;Recruitment,0
+E175,Employee_175,IT,Specialist,Germany,Mid,support,49643,112655,6,Full-time,3.8,10,3.6480828916482304,0,4.52,41,4,3.68,AWS;APIs,0
+E176,Employee_176,Finance,Analyst,Germany,Junior,producer,50963,174006,8,Full-time,4.1,10,4.0164576991140715,0,4.76,13,7,3.13,Forecasting;Accounting,0
+E177,Employee_177,HR,Manager,France,Junior,manager,63870,317161,7,Full-time,3.12,5,3.1377929331201053,1,4.34,37,5,3.73,Coaching;HR Strategy,0
+E178,Employee_178,Finance,Manager,Germany,Junior,support,62793,309932,8,Full-time,4.69,2,4.628076883397685,1,3.63,33,5,3.94,Forecasting;Excel,0
+E179,Employee_179,IT,Manager,Spain,Mid,support,72736,120448,1,Part-time,4.86,3,4.756757317645156,0,3.99,30,4,4.24,Python;ML,0
+E180,Employee_180,Marketing,Analyst,Germany,Mid,producer,68405,135407,2,Full-time,3.89,7,3.733557325592416,0,3.42,57,7,4.42,SEO;Analytics,0
+E181,Employee_181,IT,Specialist,Germany,Senior,manager,71316,262314,6,Full-time,3.87,4,3.9628490427371825,0,4.19,26,4,4.91,AWS;APIs,0
+E182,Employee_182,Finance,Engineer,UK,Senior,manager,51542,231589,9,Full-time,4.56,5,4.502811737588004,1,4.92,51,4,3.44,Accounting;Excel,0
+E183,Employee_183,Sales,Executive,Spain,Senior,manager,73896,343974,6,Full-time,3.81,3,4.007302006169185,0,4.79,38,6,3.74,Sales;Negotiation,0
+E184,Employee_184,Sales,Analyst,Spain,Junior,producer,50058,173914,2,Full-time,3.55,3,3.710894561384895,1,4.24,29,3,3.06,Negotiation;CRM,0
+E185,Employee_185,IT,Engineer,France,Junior,producer,64681,147932,4,Full-time,4.91,9,4.942035533867782,0,3.3,35,2,3.56,SQL;Python,0
+E186,Employee_186,HR,Executive,Germany,Junior,manager,34557,76591,8,Full-time,4.56,4,4.597520992323846,0,3.95,55,8,3.73,Recruitment;Coaching,0
+E187,Employee_187,Sales,Executive,Germany,Junior,producer,45042,182132,8,Full-time,3.19,5,3.0506380299200395,1,4.65,32,4,3.56,Negotiation;CRM,0
+E188,Employee_188,Marketing,Executive,UK,Mid,manager,67544,114231,8,Full-time,3.0,7,2.80403624267561,0,3.83,31,3,4.93,Analytics;SEO,0
+E189,Employee_189,Finance,Engineer,UK,Junior,producer,52412,209342,3,Full-time,3.85,7,3.8123004674460246,0,3.61,31,4,4.08,Accounting;Forecasting,0
+E190,Employee_190,Sales,Manager,Spain,Mid,producer,77135,372776,6,Full-time,3.33,5,3.509683450748205,0,4.56,30,4,3.21,Negotiation;Sales,0
+E191,Employee_191,IT,Analyst,Germany,Junior,support,40728,126908,1,Full-time,3.9,11,3.9915924246623264,1,3.32,26,1,4.61,ML;SQL,0
+E192,Employee_192,Finance,Specialist,France,Junior,support,31538,95359,1,Full-time,3.24,11,3.1052141347726367,1,4.53,13,1,3.03,Excel;Forecasting,0
+E193,Employee_193,Sales,Manager,France,Junior,support,80445,261752,6,Full-time,4.69,2,4.706293826853242,0,3.2,14,5,3.24,Sales;CRM,0
+E194,Employee_194,Sales,Specialist,France,Senior,support,62298,162468,6,Full-time,4.73,6,4.558356630356514,0,3.31,12,1,4.67,Negotiation;CRM,0
+E195,Employee_195,HR,Specialist,Spain,Junior,support,30112,88553,6,Full-time,3.04,10,3.191193798793934,0,3.78,42,1,3.87,Coaching;HR Strategy,0
+E196,Employee_196,Marketing,Analyst,Spain,Mid,manager,42253,171851,7,Full-time,3.75,4,3.864107524606406,0,4.89,29,7,3.55,Analytics;SEO,0
+E197,Employee_197,IT,Manager,UK,Mid,producer,68556,337730,9,Full-time,4.95,11,4.982873292037036,0,3.21,58,6,3.53,AWS;ML,0
+E198,Employee_198,HR,Specialist,Germany,Mid,support,52693,92979,6,Full-time,4.94,10,4.77682679443299,0,4.21,29,2,4.3,Recruitment;Coaching,0
+E199,Employee_199,HR,Analyst,France,Mid,manager,64510,167414,4,Full-time,4.13,3,4.2764382534446765,1,3.9,35,8,3.31,HR Strategy;Coaching,0
+E200,Employee_200,Sales,Executive,Spain,Senior,producer,64039,187540,1,Full-time,4.18,8,4.0812406156718435,0,4.4,10,9,3.8,Sales;Negotiation,0
+E201,Employee_201,HR,Engineer,France,Mid,support,46753,83924,9,Full-time,4.49,5,4.463761327602644,1,3.65,35,2,4.18,HR Strategy;Recruitment,0
+E202,Employee_202,IT,Engineer,Spain,Mid,producer,34017,155496,4,Full-time,4.43,2,4.315762593197266,0,3.18,57,1,3.13,Python;AWS,0
+E203,Employee_203,HR,Engineer,UK,Senior,manager,31551,136231,3,Full-time,3.16,9,3.0401128071470507,0,4.9,10,6,4.48,Coaching;Recruitment,0
+E204,Employee_204,Sales,Manager,Germany,Junior,producer,53624,242818,1,Full-time,3.41,10,3.2240031659227224,1,4.6,11,9,3.5,CRM;Sales,0
+E205,Employee_205,Finance,Manager,Germany,Senior,manager,35668,151512,9,Full-time,4.57,7,4.571052497052053,0,3.84,33,3,3.42,Forecasting;Accounting,0
+E206,Employee_206,Sales,Manager,Spain,Junior,producer,86704,368737,5,Full-time,4.85,4,4.9756502742364646,0,3.22,44,3,3.58,CRM;Negotiation,0
+E207,Employee_207,HR,Engineer,Spain,Junior,producer,62828,161925,7,Part-time,3.71,5,3.7628866391015796,0,4.66,48,0,3.64,HR Strategy;Recruitment,0
+E208,Employee_208,Sales,Executive,UK,Senior,support,86358,382797,7,Full-time,3.39,10,3.195300413401564,0,4.72,56,4,3.82,CRM;Sales,0
+E209,Employee_209,Marketing,Engineer,France,Senior,manager,66455,168712,6,Full-time,4.73,2,4.695680370228732,1,4.06,23,9,3.71,SEO;Content,0
+E210,Employee_210,HR,Engineer,Germany,Mid,manager,74571,181699,6,Full-time,3.62,9,3.66652019437029,0,3.33,56,0,3.86,HR Strategy;Coaching,0
+E211,Employee_211,HR,Manager,UK,Junior,producer,64716,240094,1,Full-time,4.0,8,3.8571367859257326,0,3.82,16,4,4.53,HR Strategy;Coaching,0
+E212,Employee_212,HR,Engineer,Germany,Senior,producer,55396,213627,3,Full-time,4.55,6,4.4387601843137485,1,4.22,25,8,4.46,Recruitment;HR Strategy,0
+E213,Employee_213,IT,Executive,Germany,Junior,manager,72581,309953,3,Full-time,4.69,10,4.84302395070894,0,3.97,55,8,4.61,Python;APIs,0
+E214,Employee_214,Finance,Engineer,UK,Senior,manager,55307,182335,6,Full-time,4.09,11,4.018464861054381,0,4.96,23,7,3.14,Excel;Accounting,0
+E215,Employee_215,Sales,Specialist,UK,Senior,support,57769,254748,1,Full-time,3.7,3,3.8091238293161354,0,4.86,34,3,4.53,CRM;Sales,0
+E216,Employee_216,Marketing,Executive,Germany,Mid,producer,65622,146031,7,Full-time,4.35,7,4.449991119380828,1,4.52,32,2,3.87,SEO;Analytics,0
+E217,Employee_217,HR,Executive,Spain,Junior,producer,56069,223980,8,Full-time,4.52,10,4.416600251197133,0,3.61,39,9,4.01,Coaching;HR Strategy,0
+E218,Employee_218,IT,Manager,UK,Mid,producer,36539,89586,6,Full-time,3.89,4,4.065627391780117,0,3.9,10,4,4.39,Python;SQL,0
+E219,Employee_219,HR,Executive,UK,Senior,manager,63998,252556,1,Full-time,4.56,2,4.545596052585769,0,4.52,30,2,4.65,Coaching;Recruitment,0
+E220,Employee_220,IT,Analyst,UK,Senior,manager,54476,224333,1,Full-time,3.87,7,3.707967174728668,1,4.33,52,9,3.01,SQL;Python,0
+E221,Employee_221,Marketing,Executive,Germany,Junior,manager,65618,228457,5,Full-time,3.04,7,2.8468599127660794,1,3.72,58,3,3.08,SEO;Content,0
+E222,Employee_222,Sales,Manager,UK,Senior,support,87858,310430,3,Full-time,4.25,11,4.1053741973317575,0,4.73,57,2,4.74,CRM;Negotiation,0
+E223,Employee_223,HR,Specialist,France,Junior,manager,33262,125506,1,Full-time,3.42,7,3.4572632876157874,0,4.99,20,1,3.72,Coaching;Recruitment,0
+E224,Employee_224,Sales,Executive,Spain,Junior,manager,66182,163039,3,Full-time,4.38,8,4.419720846455775,0,4.39,21,5,3.91,Negotiation;CRM,0
+E225,Employee_225,Marketing,Manager,Germany,Mid,manager,47519,185321,6,Full-time,3.05,9,3.231414039140603,1,3.34,11,4,4.67,SEO;Analytics,1
+E226,Employee_226,HR,Analyst,UK,Senior,manager,41413,194842,4,Full-time,4.41,8,4.4106302799671795,1,3.13,57,4,4.6,HR Strategy;Coaching,0
+E227,Employee_227,Sales,Analyst,Spain,Junior,support,80409,359095,4,Full-time,4.38,6,4.5701372533916285,1,4.21,51,2,4.1,CRM;Sales,0
+E228,Employee_228,Finance,Manager,UK,Mid,support,55338,111531,3,Part-time,3.94,10,4.127104586107825,0,3.54,32,7,3.41,Accounting;Forecasting,0
+E229,Employee_229,Finance,Manager,France,Senior,producer,74571,156256,4,Full-time,3.71,7,3.855863568743256,0,4.35,32,5,3.97,Forecasting;Excel,0
+E230,Employee_230,Finance,Executive,Germany,Mid,manager,64057,292351,1,Full-time,4.01,11,4.138952484474141,0,3.29,43,8,3.38,Accounting;Forecasting,0
+E231,Employee_231,HR,Analyst,Germany,Junior,support,51902,180045,9,Part-time,3.4,11,3.27806660688746,0,3.09,25,8,3.99,Recruitment;Coaching,1
+E232,Employee_232,Finance,Engineer,France,Senior,support,50527,210625,8,Full-time,3.81,2,3.937142522262012,0,3.66,22,8,4.03,Accounting;Excel,0
+E233,Employee_233,Finance,Specialist,UK,Senior,support,76151,266381,5,Full-time,3.74,4,3.613135111947527,1,4.32,31,5,4.94,Accounting;Excel,0
+E234,Employee_234,Sales,Manager,Germany,Senior,producer,44079,188911,4,Full-time,3.17,10,3.0710584122485147,0,4.11,29,6,4.18,Negotiation;Sales,0
+E235,Employee_235,HR,Manager,France,Junior,producer,71235,245061,1,Full-time,3.75,9,3.918295860137054,0,3.46,55,7,3.42,Recruitment;Coaching,0
+E236,Employee_236,Sales,Executive,France,Senior,support,78356,251164,2,Full-time,3.93,8,4.104068834690597,0,4.52,55,1,3.34,Sales;Negotiation,0
+E237,Employee_237,Marketing,Engineer,France,Senior,support,36771,71037,4,Full-time,4.34,10,4.315271445299338,1,3.94,10,2,4.51,Analytics;Content,0
+E238,Employee_238,Finance,Engineer,Germany,Junior,manager,53501,210509,8,Full-time,4.83,4,4.930307859684422,0,3.38,26,0,3.47,Forecasting;Accounting,0
+E239,Employee_239,Marketing,Manager,France,Mid,producer,54484,135654,3,Full-time,4.5,2,4.432882228378928,0,3.86,49,2,4.27,Content;SEO,0
+E240,Employee_240,Sales,Specialist,France,Mid,manager,39765,98264,4,Part-time,4.89,5,4.9612455323816835,0,4.77,45,6,3.87,CRM;Negotiation,0
+E241,Employee_241,Finance,Analyst,UK,Mid,manager,54423,270533,1,Part-time,3.63,9,3.805598568834391,0,4.7,47,8,3.48,Excel;Forecasting,0
+E242,Employee_242,Marketing,Engineer,UK,Senior,manager,61521,287098,4,Full-time,3.38,11,3.2508770004044765,0,3.01,12,9,4.88,Content;Analytics,1
+E243,Employee_243,Sales,Specialist,Germany,Junior,support,74724,205393,7,Full-time,3.5,8,3.3428228714216743,0,4.43,11,2,3.68,Sales;Negotiation,0
+E244,Employee_244,IT,Specialist,UK,Mid,producer,43780,141184,4,Full-time,4.47,10,4.335762211631551,0,4.06,14,5,4.8,Python;SQL,0
+E245,Employee_245,Sales,Manager,France,Junior,support,83211,244473,9,Part-time,4.75,9,4.880620429676585,1,4.05,14,9,4.15,Negotiation;CRM,0
+E246,Employee_246,Sales,Executive,UK,Mid,producer,50316,198696,3,Full-time,3.45,8,3.319009550778545,0,4.79,37,9,4.59,Negotiation;CRM,0
+E247,Employee_247,HR,Executive,France,Senior,producer,59345,184132,8,Part-time,3.1,2,3.0011432473000443,0,3.11,51,4,4.49,Coaching;Recruitment,1
+E248,Employee_248,Sales,Executive,Spain,Mid,producer,50142,221681,6,Full-time,3.1,9,3.2233622955574766,1,4.11,36,0,3.55,CRM;Negotiation,0
+E249,Employee_249,Marketing,Manager,Spain,Junior,manager,30406,89001,6,Full-time,4.06,3,4.248460362947314,0,3.07,23,6,3.84,Content;SEO,0
+E250,Employee_250,Sales,Analyst,France,Senior,support,47387,137954,8,Full-time,4.39,2,4.549704143569875,1,4.3,44,3,3.83,CRM;Sales,0
+E251,Employee_251,Marketing,Specialist,Spain,Senior,manager,76799,160411,2,Full-time,4.65,7,4.577077879018865,1,3.08,40,8,3.63,SEO;Analytics,0
+E252,Employee_252,Finance,Analyst,UK,Senior,manager,63769,165919,2,Full-time,3.63,8,3.7225985856172557,1,3.57,54,6,4.67,Excel;Accounting,0
+E253,Employee_253,HR,Executive,France,Mid,manager,69531,309742,8,Full-time,3.76,10,3.6833873125957934,0,4.83,57,7,3.08,Coaching;HR Strategy,0
+E254,Employee_254,Sales,Analyst,Spain,Junior,support,70031,189806,6,Full-time,4.93,4,5.108702497876896,0,3.79,57,6,3.53,CRM;Negotiation,0
+E255,Employee_255,Sales,Engineer,Spain,Senior,producer,74301,158568,3,Full-time,4.38,6,4.302886566808509,0,3.24,39,8,3.32,Sales;Negotiation,0
+E256,Employee_256,IT,Manager,Germany,Mid,support,49945,77817,3,Full-time,3.17,3,3.0007229764277126,0,3.79,30,4,4.9,APIs;ML,0
+E257,Employee_257,HR,Specialist,France,Junior,producer,75865,116369,3,Full-time,4.85,11,5.028702414069481,1,3.43,52,9,4.18,Recruitment;HR Strategy,0
+E258,Employee_258,HR,Manager,Germany,Senior,support,87242,245283,8,Full-time,4.42,2,4.308712791276927,0,3.54,45,4,3.18,Coaching;Recruitment,0
+E259,Employee_259,Finance,Specialist,Germany,Mid,manager,56460,233385,4,Full-time,4.25,6,4.341011692090038,0,3.57,56,3,3.32,Accounting;Excel,0
+E260,Employee_260,Marketing,Analyst,France,Senior,manager,54860,160717,2,Full-time,3.3,5,3.3339354526755525,0,3.54,43,5,3.52,SEO;Analytics,0
+E261,Employee_261,Finance,Specialist,France,Junior,support,87062,371478,4,Full-time,3.22,5,3.0622366183906564,0,4.3,32,4,3.16,Accounting;Forecasting,0
+E262,Employee_262,HR,Executive,Germany,Mid,manager,69560,297602,3,Full-time,3.31,4,3.50406982203627,1,4.98,19,1,4.24,Recruitment;HR Strategy,0
+E263,Employee_263,Marketing,Analyst,UK,Junior,support,67770,295770,1,Full-time,4.11,2,4.170837224752661,1,4.56,16,1,4.2,SEO;Content,0
+E264,Employee_264,Sales,Manager,UK,Senior,support,37498,134237,2,Full-time,4.69,3,4.72014366925164,0,3.65,47,8,3.04,CRM;Sales,0
+E265,Employee_265,HR,Engineer,Spain,Junior,manager,63783,124913,6,Full-time,4.49,3,4.30799872849417,1,3.44,43,9,4.19,Recruitment;HR Strategy,0
+E266,Employee_266,HR,Engineer,Germany,Mid,manager,72847,217986,4,Full-time,4.61,3,4.67552978994109,1,4.68,38,4,4.15,HR Strategy;Recruitment,0
+E267,Employee_267,Marketing,Manager,UK,Mid,manager,41085,120094,8,Full-time,4.68,5,4.770735532419295,1,3.25,45,7,4.58,Content;Analytics,0
+E268,Employee_268,Finance,Specialist,Germany,Mid,support,44629,211318,5,Full-time,3.59,8,3.396497377283781,1,3.0,25,0,4.33,Accounting;Excel,0
+E269,Employee_269,Finance,Engineer,Spain,Junior,support,60005,174440,8,Full-time,4.84,2,4.6454536095623284,0,4.3,37,2,3.3,Accounting;Excel,0
+E270,Employee_270,Marketing,Analyst,Germany,Senior,manager,78328,300148,5,Full-time,4.11,10,4.065959898516432,0,4.62,53,6,3.16,Content;SEO,0
+E271,Employee_271,Sales,Executive,Germany,Mid,producer,60425,158319,5,Full-time,3.13,2,3.125614310123048,1,4.78,17,2,3.73,Negotiation;CRM,0
+E272,Employee_272,Sales,Specialist,Germany,Junior,manager,65912,120207,9,Full-time,4.61,5,4.6068217957529605,1,3.85,52,2,3.45,CRM;Sales,0
+E273,Employee_273,Sales,Manager,France,Senior,support,63066,278339,3,Full-time,3.56,8,3.453496316814698,0,4.54,36,5,4.05,CRM;Negotiation,0
+E274,Employee_274,Finance,Engineer,Germany,Mid,manager,47627,220404,7,Full-time,4.8,5,4.675974454583024,1,4.62,55,2,4.82,Accounting;Excel,0
+E275,Employee_275,IT,Executive,UK,Junior,support,87724,417324,7,Full-time,4.4,7,4.420188710841177,1,3.66,59,8,3.76,AWS;SQL,0
+E276,Employee_276,Sales,Specialist,Spain,Junior,support,43007,132560,9,Full-time,3.23,11,3.2755917825093577,0,4.88,47,6,3.83,CRM;Negotiation,0
+E277,Employee_277,IT,Manager,France,Junior,producer,47576,89882,4,Full-time,3.36,6,3.430248523839297,0,3.52,13,5,3.12,APIs;AWS,0
+E278,Employee_278,IT,Executive,UK,Senior,support,62263,241229,9,Full-time,3.69,4,3.5505782087741427,0,4.61,13,4,3.16,APIs;Python,0
+E279,Employee_279,Finance,Analyst,UK,Mid,producer,81307,177508,1,Full-time,4.83,11,5.018376099841848,0,3.72,15,7,4.6,Forecasting;Excel,0
+E280,Employee_280,HR,Executive,France,Mid,manager,70696,258942,7,Part-time,4.79,6,4.5951628911923965,0,3.3,52,4,3.88,HR Strategy;Coaching,0
+E281,Employee_281,Finance,Manager,Spain,Senior,manager,88502,269844,4,Full-time,4.8,5,4.741241155575356,1,3.77,31,1,4.65,Excel;Accounting,0
+E282,Employee_282,IT,Engineer,Germany,Junior,support,39782,146786,9,Full-time,3.49,7,3.3138348389412577,0,4.73,51,4,4.05,Python;APIs,0
+E283,Employee_283,Marketing,Analyst,Germany,Senior,support,35506,59615,6,Full-time,3.37,4,3.5234258913480763,0,3.4,29,3,3.01,Content;SEO,1
+E284,Employee_284,Marketing,Analyst,Germany,Junior,support,83051,350669,2,Full-time,3.52,9,3.5299599946903353,0,3.23,19,7,3.59,Analytics;Content,0
+E285,Employee_285,Finance,Engineer,Spain,Junior,producer,56299,96095,6,Full-time,3.25,10,3.1070226220132464,0,4.04,23,1,4.34,Forecasting;Excel,0
+E286,Employee_286,Finance,Analyst,France,Senior,producer,76751,121095,9,Full-time,3.98,4,4.167121095059394,0,3.83,33,6,3.79,Forecasting;Accounting,0
+E287,Employee_287,IT,Specialist,Germany,Mid,producer,55425,175298,2,Full-time,4.6,8,4.712970324885115,1,4.36,35,5,4.46,SQL;AWS,0
+E288,Employee_288,Sales,Manager,Germany,Senior,support,58379,101457,1,Part-time,3.84,4,3.695994950688705,0,4.16,25,5,3.81,CRM;Negotiation,0
+E289,Employee_289,Finance,Analyst,Spain,Junior,manager,32887,153735,9,Full-time,3.32,7,3.2621757349456244,0,4.9,52,6,4.18,Forecasting;Accounting,0
+E290,Employee_290,HR,Engineer,UK,Junior,support,61334,269639,3,Full-time,4.11,3,3.927326109301725,0,4.14,36,8,4.49,HR Strategy;Recruitment,0
+E291,Employee_291,Marketing,Manager,UK,Junior,producer,43900,75211,9,Full-time,3.88,11,3.682585743115884,0,3.63,47,5,3.05,SEO;Analytics,0
+E292,Employee_292,Sales,Executive,Spain,Senior,producer,47632,92349,3,Full-time,3.18,5,3.0902146268563406,0,4.25,52,1,4.78,Sales;CRM,0
+E293,Employee_293,Sales,Analyst,UK,Junior,support,83775,173931,8,Full-time,3.59,3,3.5643980722282342,0,3.51,30,9,3.13,Sales;Negotiation,0
+E294,Employee_294,Sales,Manager,France,Mid,producer,77645,337098,4,Full-time,4.43,10,4.353520910139846,0,4.16,26,2,4.11,Negotiation;Sales,0
+E295,Employee_295,Marketing,Specialist,France,Senior,manager,39873,162510,9,Full-time,4.77,10,4.625051893759344,0,4.63,46,9,4.72,Analytics;Content,0
+E296,Employee_296,Marketing,Manager,France,Junior,support,77411,284198,7,Full-time,4.02,11,4.132756365198755,1,4.36,34,1,3.66,Content;SEO,0
+E297,Employee_297,Marketing,Manager,Germany,Junior,manager,33084,92117,3,Full-time,3.86,7,3.785306590632244,0,4.26,31,2,4.05,SEO;Analytics,0
+E298,Employee_298,IT,Specialist,UK,Senior,producer,83464,317330,4,Full-time,3.65,4,3.7651880534363724,1,4.53,49,2,3.5,Python;SQL,0
+E299,Employee_299,IT,Executive,Spain,Junior,manager,63798,249841,7,Full-time,4.71,10,4.531508924664793,0,4.53,20,9,3.49,APIs;Python,0
+E300,Employee_300,Marketing,Analyst,UK,Mid,support,79839,346645,4,Full-time,3.66,7,3.803402581820622,0,4.32,10,7,4.36,Content;SEO,0
+E301,Employee_301,Sales,Executive,Germany,Senior,support,81482,170213,5,Full-time,4.92,5,4.951131188604574,0,3.44,26,2,4.59,CRM;Negotiation,0
+E302,Employee_302,Sales,Specialist,Germany,Mid,producer,63214,162134,4,Full-time,4.41,3,4.332520398755015,0,4.84,24,5,3.7,CRM;Sales,0
+E303,Employee_303,Sales,Executive,France,Junior,manager,70801,332078,1,Full-time,4.55,10,4.418638546826076,0,3.79,16,6,4.01,Negotiation;Sales,0
+E304,Employee_304,Sales,Manager,Spain,Junior,producer,43668,128273,6,Full-time,4.33,3,4.389498845558007,0,4.19,26,9,3.09,Negotiation;Sales,0
+E305,Employee_305,HR,Engineer,France,Senior,support,79112,133823,8,Full-time,3.87,11,3.757853971437828,0,4.84,45,5,4.69,Coaching;Recruitment,0
+E306,Employee_306,Marketing,Analyst,Spain,Mid,producer,39824,76342,4,Full-time,4.45,2,4.537487245304881,0,4.86,45,5,3.22,Analytics;SEO,0
+E307,Employee_307,HR,Manager,Spain,Junior,producer,77116,300968,1,Full-time,3.16,8,3.2286350971755704,0,3.9,43,9,3.08,Coaching;HR Strategy,0
+E308,Employee_308,HR,Manager,France,Senior,manager,59991,173688,2,Full-time,3.56,6,3.5738643692302094,1,4.57,56,9,3.47,Coaching;HR Strategy,0
+E309,Employee_309,Finance,Analyst,France,Mid,support,59511,127783,6,Full-time,3.62,8,3.509569835118636,0,3.48,38,5,4.95,Accounting;Excel,0
+E310,Employee_310,Sales,Engineer,UK,Mid,support,49041,244138,6,Full-time,4.68,10,4.8177259456609525,1,3.68,12,7,3.57,Sales;Negotiation,0
+E311,Employee_311,HR,Analyst,UK,Mid,producer,48300,101505,1,Full-time,3.09,6,2.945600882079631,0,4.73,49,9,4.02,Recruitment;HR Strategy,0
+E312,Employee_312,HR,Analyst,Germany,Junior,support,41962,191953,4,Full-time,4.78,8,4.816888559732576,1,3.4,59,0,4.01,Coaching;Recruitment,0
+E313,Employee_313,IT,Specialist,Germany,Junior,manager,79589,180808,1,Full-time,3.24,11,3.1239590518344924,0,3.8,36,9,4.47,APIs;SQL,0
+E314,Employee_314,Sales,Engineer,France,Junior,support,70764,259763,3,Full-time,4.01,8,4.063305280643764,0,4.66,50,6,4.49,CRM;Sales,0
+E315,Employee_315,HR,Analyst,France,Senior,manager,79768,219031,7,Full-time,3.67,5,3.6907745444241864,0,3.63,42,9,4.94,Coaching;HR Strategy,0
+E316,Employee_316,Sales,Specialist,Spain,Junior,manager,52559,165538,2,Full-time,3.73,3,3.883473587075196,0,4.65,32,5,3.14,Sales;CRM,0
+E317,Employee_317,Sales,Manager,Spain,Junior,producer,75156,256223,8,Full-time,3.72,9,3.884330505874526,0,3.17,33,8,3.69,Negotiation;Sales,0
+E318,Employee_318,HR,Manager,France,Senior,manager,31364,105726,2,Full-time,4.09,5,4.256595660446205,0,4.77,18,0,3.23,Recruitment;Coaching,0
+E319,Employee_319,Finance,Analyst,Spain,Junior,support,41468,170170,4,Full-time,3.51,11,3.4468530400447577,1,3.93,27,4,3.38,Accounting;Forecasting,0
+E320,Employee_320,Sales,Engineer,Germany,Junior,producer,77691,347251,3,Part-time,4.62,5,4.7963969290297745,0,3.68,55,3,4.61,Sales;Negotiation,0
+E321,Employee_321,IT,Engineer,France,Junior,producer,53817,168162,6,Full-time,3.13,8,3.229747774657983,0,3.77,35,6,3.97,SQL;AWS,0
+E322,Employee_322,Finance,Specialist,UK,Junior,producer,74953,347995,1,Full-time,4.91,9,4.982268949290295,0,3.85,30,3,3.11,Accounting;Excel,0
+E323,Employee_323,Marketing,Engineer,Germany,Mid,manager,36447,131241,8,Full-time,4.1,5,4.067316444437394,0,3.31,53,5,3.99,SEO;Analytics,0
+E324,Employee_324,Finance,Specialist,Germany,Senior,support,84517,227352,5,Full-time,4.19,8,4.329019053221895,0,3.79,12,9,4.48,Forecasting;Accounting,0
+E325,Employee_325,IT,Analyst,Spain,Junior,producer,52469,181495,8,Part-time,3.42,4,3.342507154801846,0,3.08,19,5,4.06,AWS;ML,1
+E326,Employee_326,IT,Engineer,Germany,Senior,manager,73965,153987,5,Full-time,4.62,5,4.653074458621833,0,3.96,21,0,4.44,SQL;Python,0
+E327,Employee_327,IT,Specialist,Spain,Junior,manager,59697,259444,8,Full-time,4.06,11,4.034498410542863,0,3.67,59,4,4.61,ML;Python,0
+E328,Employee_328,Finance,Engineer,France,Junior,manager,75465,202029,7,Full-time,4.47,7,4.49112595028734,1,3.07,33,2,3.17,Accounting;Forecasting,0
+E329,Employee_329,Marketing,Engineer,France,Mid,producer,73046,226359,9,Full-time,3.97,11,4.000723167855303,0,3.86,43,8,3.11,Analytics;SEO,0
+E330,Employee_330,Marketing,Engineer,UK,Junior,support,52785,238207,6,Full-time,3.52,9,3.566887833197783,1,3.84,19,6,4.53,SEO;Content,0
+E331,Employee_331,HR,Manager,UK,Junior,support,63710,248348,3,Full-time,3.57,7,3.4379036805571306,0,4.03,43,4,3.23,Recruitment;Coaching,0
+E332,Employee_332,Marketing,Manager,UK,Mid,support,57829,107462,2,Full-time,3.5,3,3.450794466914737,0,3.69,11,4,3.79,SEO;Analytics,0
+E333,Employee_333,Finance,Specialist,Germany,Junior,manager,89935,361297,9,Full-time,3.32,3,3.4579883414560406,0,4.07,16,7,3.8,Forecasting;Excel,0
+E334,Employee_334,Finance,Executive,Spain,Mid,producer,57200,285101,5,Full-time,3.42,2,3.613861791036336,0,4.39,32,3,4.68,Forecasting;Excel,0
+E335,Employee_335,HR,Engineer,Spain,Mid,producer,50836,238741,6,Full-time,3.6,4,3.4534782617597743,1,3.07,22,6,4.88,Coaching;Recruitment,0
+E336,Employee_336,Sales,Manager,Spain,Mid,producer,65651,312033,9,Full-time,4.26,6,4.219650440177986,0,3.43,19,5,4.97,CRM;Sales,0
+E337,Employee_337,Finance,Engineer,Spain,Senior,producer,49403,221165,3,Full-time,3.48,10,3.4104882027923726,1,4.26,13,8,3.27,Accounting;Excel,0
+E338,Employee_338,Finance,Manager,UK,Junior,producer,88209,255800,8,Full-time,3.95,11,4.019615146969983,0,3.34,47,6,3.84,Forecasting;Accounting,0
+E339,Employee_339,IT,Specialist,Germany,Senior,manager,48646,79507,8,Full-time,3.01,3,3.1527341398892705,0,4.38,35,8,4.6,Python;APIs,0
+E340,Employee_340,Finance,Analyst,Germany,Mid,producer,45728,86381,5,Full-time,3.17,11,3.300585843796873,0,4.73,24,6,4.94,Forecasting;Accounting,0
+E341,Employee_341,IT,Manager,UK,Junior,manager,67196,221489,4,Full-time,4.3,8,4.103817341226891,0,4.23,43,1,3.69,ML;Python,0
+E342,Employee_342,Marketing,Executive,France,Mid,support,85689,284952,1,Full-time,3.51,8,3.564364306283895,1,3.7,58,8,3.09,Analytics;SEO,0
+E343,Employee_343,Finance,Executive,Spain,Mid,producer,86490,360370,1,Full-time,3.05,2,3.2446750446468093,0,4.57,40,5,4.82,Excel;Forecasting,0
+E344,Employee_344,Sales,Executive,France,Senior,manager,34175,84597,5,Full-time,4.92,3,4.849731551654787,1,4.02,28,0,5.0,CRM;Negotiation,0
+E345,Employee_345,Marketing,Analyst,UK,Junior,producer,79703,191747,4,Full-time,3.31,3,3.2312879135377,1,3.88,32,5,3.67,Content;Analytics,0
+E346,Employee_346,IT,Engineer,Germany,Junior,manager,40514,197003,4,Full-time,4.9,3,4.879977469707544,0,3.18,26,4,4.99,AWS;Python,0
+E347,Employee_347,IT,Specialist,France,Junior,producer,82611,189626,3,Full-time,4.95,6,4.956066811354636,1,4.71,21,1,3.74,SQL;Python,0
+E348,Employee_348,IT,Specialist,Germany,Junior,manager,77374,331799,4,Full-time,3.06,2,3.1602393826976507,0,3.67,41,6,4.02,Python;ML,0
+E349,Employee_349,Sales,Specialist,France,Mid,manager,46378,219850,2,Full-time,3.28,3,3.1325649531421074,0,4.14,18,8,3.49,Negotiation;CRM,0
+E350,Employee_350,Sales,Manager,France,Junior,producer,68285,314899,2,Full-time,3.7,7,3.60670882544957,0,4.79,47,6,3.1,Negotiation;Sales,0
+E351,Employee_351,IT,Specialist,France,Mid,support,69044,202913,1,Full-time,4.42,10,4.50639387741669,0,3.01,48,6,3.02,ML;AWS,0
+E352,Employee_352,Sales,Manager,France,Senior,support,47485,227091,6,Part-time,4.63,4,4.457571151253859,0,3.83,26,6,3.51,CRM;Sales,0
+E353,Employee_353,HR,Engineer,Germany,Mid,producer,87042,242270,8,Full-time,3.82,9,4.001866542751627,1,4.41,46,7,4.43,HR Strategy;Coaching,0
+E354,Employee_354,Finance,Engineer,UK,Junior,producer,33395,71466,1,Full-time,4.49,10,4.687177386313163,1,3.03,11,3,3.35,Excel;Forecasting,0
+E355,Employee_355,Sales,Analyst,France,Senior,support,58091,287886,9,Full-time,3.89,9,3.8731852857958144,0,4.45,25,2,3.95,Sales;Negotiation,0
+E356,Employee_356,Sales,Executive,Germany,Mid,support,66713,204971,2,Part-time,4.43,5,4.35912391737914,0,3.89,34,6,3.6,Negotiation;Sales,0
+E357,Employee_357,Marketing,Analyst,France,Mid,producer,88437,268430,1,Full-time,3.6,6,3.7059104968500356,0,4.8,59,4,3.07,SEO;Analytics,0
+E358,Employee_358,Marketing,Executive,UK,Mid,support,74786,293217,2,Full-time,3.59,7,3.624014067487465,0,4.09,11,8,3.53,Content;Analytics,0
+E359,Employee_359,Finance,Executive,UK,Senior,producer,49091,82108,7,Full-time,4.25,6,4.1034136932643,0,3.15,37,1,4.94,Excel;Accounting,0
+E360,Employee_360,Sales,Engineer,France,Junior,manager,58853,142567,4,Full-time,4.28,7,4.358675595149279,1,3.68,30,6,4.95,CRM;Sales,0
+E361,Employee_361,Sales,Specialist,Germany,Senior,support,67201,160800,1,Part-time,4.76,7,4.795346275687063,0,4.03,11,1,3.13,Sales;Negotiation,0
+E362,Employee_362,HR,Executive,UK,Junior,manager,31211,148569,6,Part-time,4.57,4,4.561146941965255,0,4.89,30,9,4.43,Coaching;Recruitment,0
+E363,Employee_363,Marketing,Analyst,Germany,Junior,producer,33727,103596,7,Full-time,4.2,3,4.268306010177215,1,4.74,47,8,4.75,Content;Analytics,0
+E364,Employee_364,Marketing,Analyst,France,Mid,manager,81134,293716,2,Full-time,3.05,10,2.886541297089422,1,4.44,38,5,3.37,Analytics;Content,0
+E365,Employee_365,Marketing,Engineer,Germany,Junior,manager,79999,399524,9,Full-time,4.05,9,4.236623567422057,0,3.22,58,7,4.48,Analytics;Content,0
+E366,Employee_366,HR,Specialist,Spain,Junior,producer,79434,291452,7,Full-time,4.39,5,4.327320387678296,0,3.61,15,9,4.24,Coaching;Recruitment,0
+E367,Employee_367,HR,Manager,Germany,Senior,producer,55601,87131,1,Full-time,3.11,10,2.976601418819806,1,4.5,20,7,3.47,Recruitment;HR Strategy,0
+E368,Employee_368,Marketing,Engineer,France,Senior,support,35577,133796,6,Full-time,4.52,10,4.460311049204124,1,4.0,35,2,4.82,Content;Analytics,0
+E369,Employee_369,Marketing,Manager,UK,Senior,support,84225,371905,7,Part-time,4.97,8,5.1214986094707715,0,4.81,57,1,4.81,SEO;Content,0
+E370,Employee_370,Finance,Specialist,France,Mid,support,55251,141612,6,Full-time,3.38,8,3.221864176138592,0,4.04,10,4,3.28,Excel;Accounting,0
+E371,Employee_371,Sales,Executive,UK,Junior,manager,68563,132748,2,Full-time,3.17,6,3.057321244724605,0,3.47,56,6,3.21,Sales;CRM,1
+E372,Employee_372,IT,Specialist,Spain,Senior,manager,84514,331398,1,Part-time,4.66,8,4.512722731958672,1,4.98,11,2,3.45,AWS;APIs,0
+E373,Employee_373,Finance,Specialist,Spain,Junior,producer,84662,156134,1,Part-time,3.44,11,3.5349725765708486,0,3.16,45,1,3.54,Forecasting;Accounting,1
+E374,Employee_374,Marketing,Manager,Spain,Mid,support,51400,144620,2,Full-time,3.51,2,3.639201429778774,0,4.44,23,2,3.81,SEO;Analytics,0
+E375,Employee_375,Marketing,Manager,Spain,Mid,producer,61673,138148,4,Full-time,3.54,2,3.7261794538402486,1,4.64,53,1,4.59,Analytics;SEO,0
+E376,Employee_376,Marketing,Engineer,UK,Mid,producer,39247,170953,9,Full-time,4.47,10,4.406890209911562,1,4.04,55,3,3.83,Content;Analytics,0
+E377,Employee_377,Finance,Analyst,Spain,Senior,support,79622,281279,2,Full-time,3.56,6,3.5383546479439234,1,3.14,52,8,4.51,Accounting;Excel,0
+E378,Employee_378,Sales,Executive,UK,Senior,support,32073,91922,1,Full-time,4.27,2,4.3559811294207105,0,4.72,43,9,3.31,CRM;Sales,0
+E379,Employee_379,Marketing,Analyst,UK,Mid,manager,50081,103607,9,Full-time,3.69,9,3.835515849186001,0,3.35,24,7,4.38,SEO;Content,0
+E380,Employee_380,HR,Analyst,Germany,Mid,producer,61826,124227,5,Full-time,4.04,8,3.993161205614898,0,3.01,17,4,3.88,HR Strategy;Recruitment,0
+E381,Employee_381,IT,Manager,Germany,Junior,producer,65790,211031,2,Full-time,4.73,11,4.673497004217156,1,4.34,35,0,3.26,AWS;ML,0
+E382,Employee_382,HR,Manager,Spain,Mid,support,64714,146385,6,Full-time,4.44,7,4.620905605813349,0,4.24,44,5,4.8,Coaching;HR Strategy,0
+E383,Employee_383,HR,Engineer,Germany,Junior,producer,75780,157317,2,Full-time,3.89,3,3.9741687260049647,0,4.56,47,2,3.17,Coaching;HR Strategy,0
+E384,Employee_384,IT,Analyst,Spain,Senior,support,49665,117164,4,Full-time,4.93,3,4.770183019872387,0,3.35,46,7,3.78,Python;SQL,0
+E385,Employee_385,Marketing,Analyst,Germany,Mid,manager,73662,137212,3,Full-time,3.82,8,4.019190982223304,1,3.47,49,9,4.96,SEO;Analytics,0
+E386,Employee_386,IT,Engineer,UK,Junior,support,45682,89951,1,Full-time,4.27,11,4.125720935483165,0,4.8,53,3,3.16,APIs;SQL,0
+E387,Employee_387,HR,Specialist,UK,Senior,manager,46459,227125,5,Full-time,4.63,6,4.449944058559666,0,3.43,33,0,3.55,Recruitment;Coaching,0
+E388,Employee_388,Sales,Specialist,Spain,Senior,support,54074,257550,7,Full-time,3.29,11,3.095312481383432,0,3.03,38,3,4.0,CRM;Sales,1
+E389,Employee_389,HR,Engineer,Spain,Mid,support,72616,273682,3,Full-time,4.53,4,4.575246495627697,0,3.97,44,4,4.17,HR Strategy;Coaching,0
+E390,Employee_390,IT,Analyst,UK,Junior,producer,40707,79934,2,Full-time,4.0,3,3.9042700630962375,0,3.91,51,6,4.93,ML;APIs,0
+E391,Employee_391,HR,Executive,Germany,Senior,producer,53519,124425,9,Full-time,4.58,3,4.430720719650704,1,3.47,35,4,3.25,Coaching;HR Strategy,0
+E392,Employee_392,HR,Manager,Spain,Junior,producer,41926,91015,7,Full-time,4.71,2,4.653490807818439,0,4.16,39,2,4.59,Recruitment;HR Strategy,0
+E393,Employee_393,IT,Manager,Germany,Junior,support,39120,183050,8,Full-time,4.87,5,4.89297638686544,1,4.45,33,4,3.21,ML;APIs,0
+E394,Employee_394,IT,Analyst,Spain,Mid,producer,40255,196416,4,Full-time,4.1,10,4.099006570749773,0,3.71,34,1,3.15,ML;AWS,0
+E395,Employee_395,Finance,Engineer,Germany,Senior,support,34864,108745,9,Full-time,4.89,7,4.763425645686773,1,4.83,40,7,3.38,Accounting;Forecasting,0
+E396,Employee_396,IT,Specialist,Germany,Mid,producer,79647,209102,4,Full-time,3.25,3,3.4158778241348227,0,4.17,44,7,3.53,Python;AWS,0
+E397,Employee_397,Marketing,Specialist,France,Senior,support,76314,250618,7,Full-time,5.0,6,4.880285137165517,1,4.6,52,9,3.63,SEO;Content,0
+E398,Employee_398,Finance,Manager,France,Mid,manager,83014,156016,5,Full-time,4.7,3,4.510988225005194,0,4.07,18,2,3.35,Forecasting;Excel,0
+E399,Employee_399,Finance,Analyst,Germany,Senior,manager,62536,201814,4,Full-time,4.49,3,4.581969407714329,1,4.45,37,7,3.81,Forecasting;Excel,0
+E400,Employee_400,Marketing,Executive,France,Mid,producer,76737,339756,2,Full-time,3.11,4,3.2629636745775152,0,4.25,11,1,4.45,Content;Analytics,0
+E401,Employee_401,Finance,Specialist,France,Mid,manager,67840,162741,8,Full-time,3.03,9,2.909604517766075,1,3.72,24,5,3.31,Accounting;Forecasting,0
+E402,Employee_402,Finance,Specialist,Germany,Junior,producer,31386,148146,6,Full-time,3.15,5,3.329142626901464,0,4.41,27,1,4.58,Excel;Accounting,0
+E403,Employee_403,Marketing,Executive,UK,Senior,support,44435,154638,9,Full-time,4.55,8,4.632891331334169,0,4.61,48,4,3.24,SEO;Analytics,0
+E404,Employee_404,Finance,Engineer,Germany,Senior,support,72725,205481,4,Full-time,4.82,9,4.966728594275396,1,4.11,16,1,4.09,Accounting;Excel,0
+E405,Employee_405,Sales,Manager,UK,Junior,producer,67679,211384,7,Full-time,3.38,9,3.2262422442446046,0,3.02,28,4,4.35,Sales;CRM,1
+E406,Employee_406,HR,Analyst,Germany,Mid,manager,35141,58966,6,Full-time,3.31,9,3.4698051060385238,1,4.95,11,8,4.33,HR Strategy;Recruitment,0
+E407,Employee_407,HR,Manager,Germany,Senior,manager,79863,174285,8,Full-time,3.51,2,3.5954429465053885,0,3.73,49,4,3.2,Recruitment;HR Strategy,0
+E408,Employee_408,HR,Engineer,France,Senior,manager,31777,145677,7,Full-time,4.9,3,4.824604919605595,1,3.64,17,6,3.97,Recruitment;HR Strategy,0
+E409,Employee_409,Marketing,Analyst,Spain,Mid,support,58511,186853,6,Full-time,4.2,10,4.136874562303463,0,4.7,22,4,3.63,Analytics;Content,0
+E410,Employee_410,Sales,Engineer,France,Junior,manager,46448,178376,9,Full-time,3.15,11,2.9710839159413753,0,3.85,20,5,3.53,Sales;Negotiation,0
+E411,Employee_411,IT,Specialist,France,Junior,support,71757,267222,7,Full-time,4.33,8,4.239466553968583,1,3.21,42,9,4.42,Python;SQL,0
+E412,Employee_412,Sales,Manager,UK,Mid,producer,50719,131320,7,Full-time,3.9,9,4.062407628417745,0,4.91,40,1,4.16,Negotiation;CRM,0
+E413,Employee_413,IT,Specialist,France,Mid,manager,76219,170175,7,Full-time,4.23,6,4.417145826380542,1,3.39,14,8,4.29,AWS;APIs,0
+E414,Employee_414,Marketing,Manager,Spain,Mid,manager,62125,123739,8,Full-time,4.3,11,4.276149689210084,0,4.45,38,1,4.75,Analytics;Content,0
+E415,Employee_415,Sales,Executive,France,Junior,support,34712,100185,9,Full-time,4.5,10,4.594100486522717,1,3.42,15,9,4.77,CRM;Negotiation,0
+E416,Employee_416,IT,Executive,UK,Mid,manager,66495,270745,8,Full-time,4.53,6,4.639861047917207,0,3.54,14,6,3.23,AWS;APIs,0
+E417,Employee_417,Sales,Specialist,Germany,Senior,manager,72317,231034,6,Full-time,4.19,3,4.388739713712576,0,4.08,32,7,3.38,Negotiation;Sales,0
+E418,Employee_418,Sales,Analyst,France,Mid,manager,53763,259178,3,Full-time,3.69,3,3.8307877014223366,0,3.53,58,3,4.45,Sales;CRM,0
+E419,Employee_419,Sales,Engineer,France,Mid,manager,47070,194100,8,Full-time,4.85,3,4.7939157653527715,0,4.03,56,5,3.22,CRM;Sales,0
+E420,Employee_420,Sales,Engineer,Germany,Junior,producer,40635,116230,5,Full-time,3.13,9,3.094532116132495,0,4.41,51,0,4.93,Negotiation;CRM,0
+E421,Employee_421,HR,Analyst,France,Junior,producer,45371,112416,3,Full-time,4.32,8,4.2026572739566825,1,3.57,43,6,3.18,Recruitment;HR Strategy,0
+E422,Employee_422,Marketing,Manager,France,Senior,support,40766,128451,7,Full-time,4.07,2,4.161908204629473,1,4.47,16,5,3.72,Analytics;Content,0
+E423,Employee_423,IT,Analyst,Germany,Mid,manager,46956,152554,7,Full-time,3.44,5,3.3153999411182244,1,4.85,46,6,4.96,SQL;AWS,0
+E424,Employee_424,HR,Manager,Spain,Senior,support,87824,365657,1,Full-time,3.63,5,3.812070064191253,0,3.97,31,8,3.81,Recruitment;Coaching,0
+E425,Employee_425,Finance,Specialist,Germany,Mid,producer,59171,243565,7,Full-time,3.23,9,3.3825032271052047,0,4.31,25,7,3.54,Forecasting;Excel,0
+E426,Employee_426,Sales,Engineer,UK,Mid,manager,31102,83630,1,Full-time,4.75,10,4.731583533219144,0,4.0,56,2,4.71,Sales;CRM,0
+E427,Employee_427,Finance,Specialist,Spain,Junior,support,65754,182868,9,Full-time,4.16,11,4.0633570591481485,1,4.07,45,7,4.56,Forecasting;Excel,0
+E428,Employee_428,Sales,Manager,UK,Junior,manager,71708,273906,9,Full-time,3.11,11,2.990350872056091,0,4.35,47,5,3.97,Sales;CRM,0
+E429,Employee_429,Finance,Specialist,UK,Mid,support,32763,99382,4,Full-time,3.14,2,3.311916689052201,1,3.69,33,8,4.81,Forecasting;Excel,0
+E430,Employee_430,IT,Manager,UK,Mid,support,66069,120030,4,Full-time,3.45,7,3.5242851075298725,1,4.2,16,1,3.88,APIs;ML,0
+E431,Employee_431,Finance,Manager,Spain,Senior,support,37833,130864,8,Full-time,3.3,3,3.2552233897043825,1,3.13,30,7,3.15,Excel;Accounting,1
+E432,Employee_432,HR,Engineer,Germany,Mid,support,30864,108013,8,Full-time,4.29,7,4.312118330131272,0,4.75,55,0,3.47,HR Strategy;Coaching,0
+E433,Employee_433,Sales,Executive,France,Junior,producer,34944,118886,4,Full-time,3.03,11,2.917112320707027,0,3.75,39,9,4.48,Negotiation;CRM,0
+E434,Employee_434,Marketing,Manager,Germany,Mid,support,65969,168859,2,Full-time,3.61,2,3.781968705258266,0,3.05,45,7,3.68,Content;Analytics,0
+E435,Employee_435,HR,Specialist,France,Mid,manager,46682,109830,5,Full-time,3.03,4,2.8602108344103545,1,3.31,46,0,4.15,Coaching;Recruitment,1
+E436,Employee_436,Marketing,Executive,UK,Junior,support,58225,277563,8,Full-time,4.61,6,4.635265755381583,1,3.92,27,7,4.88,Analytics;Content,0
+E437,Employee_437,Sales,Engineer,UK,Senior,producer,82216,248177,3,Full-time,4.71,10,4.555673512094852,0,4.47,32,6,3.35,Negotiation;Sales,0
+E438,Employee_438,IT,Manager,Germany,Senior,manager,76088,131309,2,Full-time,3.57,11,3.760034867883072,0,3.56,24,7,3.66,Python;ML,0
+E439,Employee_439,Finance,Analyst,UK,Mid,manager,67289,133500,1,Full-time,3.03,2,3.0695532379029267,0,3.63,29,9,4.56,Excel;Accounting,0
+E440,Employee_440,IT,Manager,Spain,Senior,producer,56940,222592,1,Full-time,3.67,8,3.595137851202267,0,3.25,58,1,3.11,Python;APIs,0
+E441,Employee_441,Sales,Executive,UK,Senior,producer,66159,230031,2,Full-time,4.6,2,4.6666103327141535,1,4.48,11,4,3.11,CRM;Sales,0
+E442,Employee_442,IT,Analyst,Germany,Junior,manager,71941,351086,6,Full-time,3.96,3,3.967039786021523,0,4.04,10,4,3.58,APIs;AWS,0
+E443,Employee_443,Finance,Manager,Germany,Mid,support,76404,157230,4,Full-time,3.31,3,3.1767800716137877,0,3.73,35,8,3.66,Excel;Forecasting,0
+E444,Employee_444,Finance,Executive,France,Junior,support,62069,290447,3,Full-time,3.14,10,3.303834678021511,0,3.45,35,7,4.82,Forecasting;Excel,1
+E445,Employee_445,HR,Manager,UK,Junior,manager,70931,249907,3,Full-time,3.61,6,3.5445232377654996,0,3.79,50,1,3.36,Coaching;Recruitment,0
+E446,Employee_446,HR,Specialist,France,Junior,support,56728,254742,6,Full-time,3.02,2,2.879759755381509,0,3.15,50,2,3.95,Coaching;HR Strategy,1
+E447,Employee_447,HR,Engineer,France,Mid,manager,41294,122899,3,Full-time,4.61,9,4.667347890027904,0,3.01,31,0,3.55,Recruitment;Coaching,0
+E448,Employee_448,IT,Executive,Germany,Junior,manager,52495,110483,8,Full-time,3.4,9,3.2395493370650605,1,3.43,57,4,4.7,SQL;Python,1
+E449,Employee_449,Marketing,Engineer,UK,Junior,producer,79228,260705,3,Full-time,4.44,2,4.430068346409052,0,4.72,11,9,4.51,Analytics;Content,0
+E450,Employee_450,IT,Engineer,Spain,Mid,producer,47276,216893,2,Full-time,3.01,9,2.847242862603356,0,3.14,29,4,3.59,AWS;SQL,1
+E451,Employee_451,IT,Analyst,UK,Senior,manager,51329,142059,7,Full-time,3.6,11,3.640674643448186,0,3.25,53,8,3.71,APIs;AWS,0
+E452,Employee_452,Finance,Engineer,Spain,Junior,support,77661,127440,8,Full-time,3.65,5,3.7708812035343424,0,3.95,12,5,3.32,Accounting;Excel,0
+E453,Employee_453,IT,Manager,Germany,Senior,producer,70969,152846,1,Full-time,3.69,4,3.6302570765828586,0,4.24,44,4,3.2,SQL;APIs,0
+E454,Employee_454,HR,Engineer,Spain,Senior,producer,41161,191764,3,Full-time,3.38,2,3.400276217877918,1,4.01,18,7,3.8,HR Strategy;Coaching,0
+E455,Employee_455,Finance,Specialist,UK,Junior,manager,83911,298193,2,Part-time,3.3,6,3.44518561859019,0,4.33,30,8,4.01,Accounting;Forecasting,0
+E456,Employee_456,HR,Engineer,Spain,Senior,support,43663,199709,5,Full-time,3.04,4,3.0335187586331185,0,3.41,59,0,3.91,Recruitment;Coaching,1
+E457,Employee_457,HR,Manager,France,Junior,manager,80575,299601,7,Full-time,3.03,9,3.02902643335549,0,3.57,44,6,3.73,Coaching;HR Strategy,0
+E458,Employee_458,Marketing,Manager,Spain,Junior,producer,64112,224316,7,Full-time,3.12,5,3.0931068326832776,0,4.84,28,7,4.18,Content;SEO,0
+E459,Employee_459,HR,Engineer,Spain,Senior,producer,65771,108594,5,Full-time,3.96,3,4.021691991199949,0,4.51,15,7,3.64,Coaching;Recruitment,0
+E460,Employee_460,HR,Specialist,UK,Senior,producer,51534,152318,5,Part-time,3.97,3,4.0453605162837425,0,4.33,46,7,3.62,HR Strategy;Coaching,0
+E461,Employee_461,HR,Executive,UK,Senior,support,63214,185538,1,Full-time,4.55,2,4.5414806882277325,0,3.98,27,6,4.82,Coaching;Recruitment,0
+E462,Employee_462,HR,Analyst,Spain,Junior,manager,30364,146057,1,Full-time,4.25,5,4.0685611544060505,0,4.34,24,7,4.78,Recruitment;Coaching,0
+E463,Employee_463,Marketing,Engineer,UK,Senior,support,35344,154794,6,Full-time,3.48,6,3.57482540705767,0,3.56,27,6,3.88,Content;SEO,0
+E464,Employee_464,Sales,Specialist,Germany,Mid,support,48263,208838,3,Full-time,4.81,9,4.792439810665036,0,4.64,38,0,4.96,Negotiation;Sales,0
+E465,Employee_465,Sales,Executive,Spain,Mid,producer,41672,135716,8,Full-time,4.84,10,4.94297004134933,1,4.19,57,6,4.77,Negotiation;Sales,0
+E466,Employee_466,Sales,Manager,Spain,Senior,producer,45321,114513,5,Full-time,4.75,8,4.854124660441769,0,3.17,48,7,4.81,CRM;Negotiation,0
+E467,Employee_467,Marketing,Engineer,Germany,Senior,support,83450,285417,6,Full-time,3.21,10,3.2285561868846946,0,3.2,27,0,3.88,Analytics;SEO,1
+E468,Employee_468,Sales,Specialist,Spain,Junior,support,78002,381304,7,Full-time,4.39,9,4.303804783896977,0,3.33,36,6,4.73,Sales;CRM,0
+E469,Employee_469,Finance,Executive,Germany,Junior,manager,44080,127052,1,Full-time,4.67,11,4.758149285092881,0,4.86,20,5,4.63,Accounting;Excel,0
+E470,Employee_470,Marketing,Analyst,Spain,Mid,manager,36131,176091,2,Full-time,3.97,11,3.9420703633777254,1,3.71,39,4,3.19,Content;Analytics,0
+E471,Employee_471,IT,Engineer,Germany,Mid,producer,71420,233132,1,Part-time,3.28,2,3.459370062216597,1,4.25,14,7,3.16,SQL;ML,0
+E472,Employee_472,HR,Manager,UK,Senior,manager,81248,349826,1,Full-time,4.31,5,4.259416118525718,0,3.7,29,1,4.67,Recruitment;HR Strategy,0
+E473,Employee_473,Finance,Engineer,Germany,Mid,support,62813,95406,8,Part-time,3.88,7,3.922730625435433,0,4.54,33,7,4.74,Accounting;Forecasting,0
+E474,Employee_474,IT,Specialist,UK,Junior,producer,46142,188422,9,Full-time,3.14,4,3.147397189976896,0,3.39,19,6,4.84,SQL;APIs,1
+E475,Employee_475,Sales,Specialist,Germany,Mid,manager,31845,61468,6,Full-time,3.7,4,3.7226728210727016,0,3.85,44,3,3.32,Sales;Negotiation,0
+E476,Employee_476,IT,Specialist,Germany,Senior,manager,50601,117378,1,Full-time,3.35,6,3.2278191878799647,1,4.43,30,8,4.16,Python;SQL,0
+E477,Employee_477,HR,Specialist,Germany,Senior,support,65453,181284,3,Full-time,4.21,4,4.182393225138903,0,3.24,27,6,4.16,Recruitment;Coaching,0
+E478,Employee_478,IT,Analyst,Spain,Junior,manager,30765,109600,5,Full-time,3.85,4,3.7014318314046677,0,4.3,52,0,3.6,APIs;SQL,0
+E479,Employee_479,Marketing,Analyst,Spain,Senior,producer,72147,130825,4,Full-time,3.99,2,4.120053950264568,0,3.67,27,3,3.6,Analytics;Content,0
+E480,Employee_480,HR,Executive,Germany,Mid,producer,44260,180129,8,Full-time,3.3,2,3.284041050623075,0,4.11,40,0,4.79,HR Strategy;Recruitment,0
+E481,Employee_481,Marketing,Engineer,France,Junior,producer,43411,85507,1,Full-time,3.25,4,3.386948533527329,1,4.28,13,4,4.67,Content;SEO,0
+E482,Employee_482,HR,Engineer,Spain,Mid,support,53778,135387,3,Full-time,4.35,7,4.252838435758044,0,3.99,23,0,4.83,Coaching;Recruitment,0
+E483,Employee_483,IT,Executive,Germany,Mid,producer,78624,198128,5,Full-time,4.67,10,4.703027563685924,0,4.67,19,7,3.03,Python;SQL,0
+E484,Employee_484,Finance,Manager,Spain,Junior,producer,82635,377806,8,Part-time,3.16,4,3.313504806183213,1,4.43,31,6,4.14,Excel;Accounting,0
+E485,Employee_485,Marketing,Engineer,France,Junior,manager,52491,257222,9,Full-time,4.91,3,4.800095960934098,0,3.81,48,5,4.77,Content;Analytics,0
+E486,Employee_486,Finance,Executive,UK,Junior,manager,33574,90046,1,Full-time,4.92,4,4.849843519238778,1,4.54,51,2,4.92,Excel;Accounting,0
+E487,Employee_487,Marketing,Analyst,UK,Mid,support,40720,99879,5,Full-time,3.55,7,3.550079174209114,1,4.69,30,6,3.39,Analytics;SEO,0
+E488,Employee_488,IT,Engineer,UK,Junior,producer,47376,98727,6,Full-time,3.12,10,3.02103440267389,1,4.18,12,6,4.89,APIs;ML,0
+E489,Employee_489,Marketing,Executive,France,Junior,manager,43280,189366,3,Full-time,4.09,8,4.178246516265486,0,3.47,21,7,4.66,Analytics;Content,0
+E490,Employee_490,Finance,Manager,UK,Senior,manager,76707,175139,4,Full-time,4.08,4,4.037736458540266,0,3.3,18,0,3.98,Accounting;Forecasting,0
+E491,Employee_491,HR,Executive,Germany,Senior,producer,84304,340351,2,Part-time,3.15,2,3.3460890138460293,0,3.38,12,9,4.99,HR Strategy;Recruitment,1
+E492,Employee_492,Sales,Manager,Spain,Mid,producer,86180,384943,6,Full-time,3.63,6,3.5015364274031198,1,4.83,47,5,3.49,Sales;Negotiation,0
+E493,Employee_493,Finance,Engineer,France,Junior,producer,86895,158404,3,Full-time,4.92,10,4.992420044692178,0,3.38,18,8,3.81,Forecasting;Accounting,0
+E494,Employee_494,Sales,Specialist,Spain,Junior,manager,80192,368060,7,Full-time,4.05,8,4.072802722525251,1,4.77,22,8,3.88,Negotiation;Sales,0
+E495,Employee_495,IT,Specialist,UK,Junior,producer,70136,323792,8,Full-time,4.37,2,4.245941064108388,0,4.56,40,8,4.28,ML;SQL,0
+E496,Employee_496,IT,Engineer,Spain,Senior,support,74239,310101,8,Full-time,4.45,9,4.4550420212086355,1,4.67,42,4,3.15,Python;SQL,0
+E497,Employee_497,Sales,Analyst,Spain,Junior,manager,55117,221375,9,Full-time,4.54,4,4.577193899102197,1,4.49,50,2,4.69,Sales;Negotiation,0
+E498,Employee_498,Marketing,Engineer,France,Junior,support,81684,131404,6,Full-time,3.07,4,2.8763414181494267,0,4.12,22,6,3.47,SEO;Analytics,0
+E499,Employee_499,Marketing,Analyst,Germany,Mid,manager,53769,157319,1,Full-time,3.28,7,3.3068131134004908,1,4.28,47,6,3.85,Content;SEO,0
+E500,Employee_500,Sales,Specialist,UK,Mid,support,85107,316468,5,Full-time,4.92,4,4.986109134494765,0,3.77,57,4,3.27,CRM;Negotiation,0
