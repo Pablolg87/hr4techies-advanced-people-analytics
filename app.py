@@ -126,9 +126,17 @@ st.markdown("### 📋 Formato requerido del CSV")
 st.markdown("""
 Este MVP funciona con un modelo de datos específico de People Analytics.
 
-👉 Puedes usar el dataset de ejemplo para probar la herramienta:
-https://raw.githubusercontent.com/Pablolg87/hr4techies-advanced-people-analytics/main/hr4techies_people_analytics_dataset.csv
+Descarga el dataset de ejemplo y súbelo para probar la herramienta.
 """)
+
+# BOTÓN DE DESCARGA (AQUÍ)
+with open("hr4techies_people_analytics_dataset.csv", "rb") as file:
+    st.download_button(
+        label="📥 Descargar CSV demo",
+        data=file,
+        file_name="hr4techies_people_analytics_dataset.csv",
+        mime="text/csv"
+    )
 
 uploaded_file = st.file_uploader(
     "Sube tu archivo CSV",
