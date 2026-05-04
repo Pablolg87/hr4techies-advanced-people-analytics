@@ -120,6 +120,16 @@ en visualizaciones, insights y recomendaciones accionables para decisiones de ta
 # SUBIDA DEL CSV
 # ============================================================
 
+# INFORMACIÓN SOBRE EL FORMATO
+st.markdown("### 📋 Formato requerido del CSV")
+
+st.markdown("""
+Este MVP funciona con un modelo de datos específico de People Analytics.
+
+👉 Puedes usar el dataset de ejemplo para probar la herramienta:
+https://raw.githubusercontent.com/Pablolg87/hr4techies-advanced-people-analytics/main/hr4techies_people_analytics_dataset.csv
+""")
+
 uploaded_file = st.file_uploader(
     "Sube tu archivo CSV",
     type=["csv"],
@@ -130,6 +140,43 @@ if uploaded_file is None:
     st.info("Sube un CSV para comenzar el análisis.")
     st.stop()
 
+
+# LEER CSV
+df = pd.read_csv(uploaded_file)
+
+# VALIDACIÓN DE COLUMNAS
+required_columns = [
+    "employee_id",
+    "employee_name",
+    "department",
+    "role",
+    "location",
+    "seniority",
+    "typeofcontribution",
+    "salary",
+    "revenue_generated",
+    "tenure_years",
+    "contract_type",
+    "performance_score",
+    "projects_completed",
+    "last_evaluation_score",
+    "promotion_last_2_years",
+    "engagement_score",
+    "training_hours",
+    "absenteeism_days",
+    "work_life_balance_score",
+    "skills",
+    "attrition_flag"
+]
+
+missing_columns = [col for col in required_columns if col not in df.columns]
+
+if missing_columns:
+    st.error("❌ El CSV no tiene el formato correcto")
+    st.write("Faltan las siguientes columnas:")
+    st.write(missing_columns)
+    st.info("👉 Usa el dataset de ejemplo para probar la herramienta")
+    st.stop()
 
 # ============================================================
 # LECTURA DEL DATASET
