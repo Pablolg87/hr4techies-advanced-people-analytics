@@ -115,6 +115,8 @@ Plataforma demo de **People Analytics** que convierte un CSV de empleados en
 visualizaciones, insights y recomendaciones accionables para decisiones de talento.
 """)
 
+st.success("🚀 Demo lista para usar: descarga el CSV demo, súbelo y explora los módulos de análisis.")
+
 
 # ============================================================
 # FORMATO Y DATASET DEMO
@@ -216,3 +218,434 @@ if df[numeric_columns].isnull().any().any():
     st.error("❌ Algunas columnas numéricas contienen valores no válidos.")
     st.info("Revisa el CSV o usa el dataset demo incluido.")
     st.stop()
+
+st.success("✅ CSV cargado correctamente")
+st.write(f"Shape del dataset: {df.shape[0]} filas x {df.shape[1]} columnas")
+
+
+# ============================================================
+# CREACIÓN DE VARIABLES ENRIQUECIDAS
+# ============================================================
+
+df["revenue_salary_ratio"] = df["revenue_generated"] / df["salary"]
+
+df["attrition_risk_score"] = (
+    (5 - df["engagement_score"]) * 0.35 +
+    (5 - df["work_life_balance_score"]) * 0.25 +
+    df["absenteeism_days"] * 0.15 +
+    (5 - df["performance_score"]) * 0.15 +
+    df["attrition_flag"] * 1.5
+)
+
+df["attrition_risk_level"] = pd.cut(
+    df["attrition_risk_score"],
+    bins=[-1, 1.5, 2.5, 10],
+    labels=["Bajo", "Medio", "Alto"]
+)
+
+df["talent_outlier_type"] = np.where(
+    (df["performance_score"] >= 4.5) &
+    (df["revenue_generated"] >= df["revenue_generated"].quantile(0.75)),
+    "High Impact Talent",
+    np.where(
+        (df["engagement_score"] <= 3.3) &
+        (df["revenue_generated"] >= df["revenue_generated"].quantile(0.75)),
+        "Critical Retention Risk",
+        "Normal"
+    )
+)
+
+df["archetype"] = np.where(
+    (df["performance_score"] >= 4.3) & (df["engagement_score"] >= 4.0),
+    "High Impact Talent",
+    np.where(
+        (df["performance_score"] >= 3.8) & (df["engagement_score"] >= 3.8),
+        "Stable Core",
+        np.where(
+            (df["performance_score"] < 3.5) & (df["engagement_score"] < 3.5),
+            "At-Risk Contributor",
+            "Emerging Talent"
+        )
+    )
+)
+
+
+# ============================================================
+# VISTA GENERAL
+# ============================================================
+
+st.header("Vista general del dataset")
+
+st.subheader("Vista previa de los datos")
+st.dataframe(df.head())
+
+st.subheader("KPIs generales")
+
+col1, col2, col3, col4, col5 = st.columns(5)
+
+col1.metric("Empleados", df.shape[0])
+col2.metric("Salario medio", f"{df['salary'].mean():,.0f} €")
+col3.metric("Revenue total", f"{df['revenue_generated'].sum():,.0f} €")
+col4.metric("Performance medio", f"{df['performance_score'].mean():.2f}")
+col5.metric("Engagement medio", f"{df['engagement_score'].mean():.2f}")
+
+
+# ============================================================
+# SELECTOR DE MÓDULO
+# ============================================================
+
+st.sidebar.title("Módulos de análisis")
+
+module = st.sidebar.radio(
+    "Selecciona un módulo",
+    [
+        "Performance Analytics",
+        "Strategic Attrition",
+        "Intelligent Role Matching",
+        "Talent Outliers",
+        "Workforce Archetypes"
+    ]
+)
+
+
+# ============================================================
+# MÓDULO 1: PERFORMANCE ANALYTICS
+# ============================================================
+
+if module == "Performance Analytics":
+
+    st.header("Performance Analytics")
+
+    st.write("""
+    Este módulo analiza el desempeño de los empleados combinando performance,
+    evaluación, proyectos completados, revenue generado y salario.
+    """)
+
+    top_performers = df.sort_values(
+        by="performance_score",
+        ascending=False
+    ).head(10)
+
+    st.subheader("Top 10 empleados por performance")
+    st.dataframe(
+        top_performers[
+            ["employee_name", "department", "role", "performance_score", "revenue_generated", "salary"]
+        ]
+    )
+
+    st.subheader("Distribución de performance")
+    fig = px.histogram(
+        df,
+        x="performance_score",
+        nbins=20,
+        color="department",
+        title="Distribución de performance por departamento"
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader("Performance vs Revenue")
+    fig = px.scatter(
+        df,
+        x="performance_score",
+        y="revenue_generated",
+        color="department",
+        size="salary",
+        hover_data=["employee_name", "role", "seniority"],
+        title="Performance vs Revenue generado"
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader("Insight automático")
+
+    high_perf_low_salary = df[
+        (df["performance_score"] >= 4.5) &
+        (df["salary"] < df["salary"].median())
+    ]
+
+    st.success(
+        f"Se han detectado {len(high_perf_low_salary)} empleados con alto performance "
+        f"y salario por debajo de la mediana. Son candidatos a revisión salarial o plan de retención."
+    )
+
+    if len(high_perf_low_salary) > 0:
+        st.dataframe(
+            high_perf_low_salary[
+                ["employee_name", "department", "role", "salary", "performance_score", "revenue_generated"]
+            ]
+        )
+
+
+# ============================================================
+# MÓDULO 2: STRATEGIC ATTRITION
+# ============================================================
+
+elif module == "Strategic Attrition":
+
+    st.header("Strategic Attrition")
+
+    st.write("""
+    Este módulo identifica riesgo de fuga combinando engagement, work-life balance,
+    absentismo, performance y señal histórica de attrition.
+    """)
+
+    st.subheader("Attrition rate por departamento")
+    attrition_by_department = (
+        df.groupby("department")["attrition_flag"]
+        .mean()
+        .reset_index()
+    )
+
+    fig = px.bar(
+        attrition_by_department,
+        x="department",
+        y="attrition_flag",
+        title="Tasa de attrition por departamento",
+        labels={"attrition_flag": "Attrition rate"}
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader("Engagement vs Work-Life Balance")
+    fig = px.scatter(
+        df,
+        x="engagement_score",
+        y="work_life_balance_score",
+        color="attrition_risk_level",
+        size="absenteeism_days",
+        hover_data=["employee_name", "department", "role"],
+        title="Riesgo de fuga: Engagement vs Work-Life Balance"
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader("Empleados con mayor riesgo de fuga")
+
+    high_risk = df.sort_values(
+        by="attrition_risk_score",
+        ascending=False
+    ).head(15)
+
+    st.dataframe(
+        high_risk[
+            [
+                "employee_name",
+                "department",
+                "role",
+                "engagement_score",
+                "work_life_balance_score",
+                "absenteeism_days",
+                "attrition_risk_level"
+            ]
+        ]
+    )
+
+    st.warning(
+        f"Se han identificado {len(df[df['attrition_risk_level'] == 'Alto'])} empleados "
+        f"con riesgo alto de fuga."
+    )
+
+
+# ============================================================
+# MÓDULO 3: INTELLIGENT ROLE MATCHING
+# ============================================================
+
+elif module == "Intelligent Role Matching":
+
+    st.header("Intelligent Role Matching")
+
+    st.write("""
+    Este módulo recomienda posibles movimientos internos usando skills,
+    seniority, performance y tipo de contribución.
+    """)
+
+    selected_employee = st.selectbox(
+        "Selecciona un empleado",
+        df["employee_name"].tolist()
+    )
+
+    employee = df[df["employee_name"] == selected_employee].iloc[0]
+
+    st.subheader("Perfil del empleado")
+    st.write(
+        employee[
+            ["employee_name", "role", "department", "seniority", "skills", "performance_score"]
+        ]
+    )
+
+    role_rules = {
+        "Data Engineer": ["Python", "SQL", "AWS"],
+        "ML Engineer": ["Python", "ML"],
+        "People Analytics Specialist": ["HR Strategy", "Analytics"],
+        "Sales Manager": ["Sales", "CRM", "Negotiation"],
+        "Finance Manager": ["Excel", "Forecasting", "Accounting"],
+        "Marketing Analyst": ["SEO", "Analytics", "Content"]
+    }
+
+    employee_skills = str(employee["skills"]).split(";")
+    recommendations = []
+
+    for target_role, required_skills in role_rules.items():
+        matched_skills = len(set(employee_skills).intersection(set(required_skills)))
+        match_score = matched_skills / len(required_skills)
+
+        recommendations.append({
+            "recommended_role": target_role,
+            "match_score": round(match_score, 2),
+            "matched_skills": matched_skills,
+            "required_skills": ", ".join(required_skills)
+        })
+
+    recommendations_df = pd.DataFrame(recommendations).sort_values(
+        by="match_score",
+        ascending=False
+    )
+
+    st.subheader("Recomendaciones de roles internos")
+    st.dataframe(recommendations_df)
+
+    fig = px.bar(
+        recommendations_df,
+        x="recommended_role",
+        y="match_score",
+        title=f"Match score para {selected_employee}"
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    best_match = recommendations_df.iloc[0]
+
+    st.success(
+        f"Mejor recomendación: {best_match['recommended_role']} "
+        f"con un match score de {best_match['match_score']}."
+    )
+
+
+# ============================================================
+# MÓDULO 4: TALENT OUTLIERS
+# ============================================================
+
+elif module == "Talent Outliers":
+
+    st.header("Talent Outliers")
+
+    st.write("""
+    Este módulo identifica empleados fuera del patrón normal combinando performance,
+    revenue generado, salario y engagement.
+    """)
+
+    st.subheader("Mapa 3D de talento")
+
+    fig = px.scatter_3d(
+        df,
+        x="performance_score",
+        y="revenue_generated",
+        z="engagement_score",
+        color="talent_outlier_type",
+        size="salary",
+        hover_data=["employee_name", "department", "role", "typeofcontribution"],
+        title="Talent Outliers 3D: Performance, Revenue y Engagement"
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader("Outliers detectados")
+
+    outliers = df[df["talent_outlier_type"] != "Normal"].sort_values(
+        by="revenue_generated",
+        ascending=False
+    )
+
+    st.dataframe(
+        outliers[
+            [
+                "employee_name",
+                "department",
+                "role",
+                "performance_score",
+                "engagement_score",
+                "revenue_generated",
+                "salary",
+                "talent_outlier_type"
+            ]
+        ]
+    )
+
+    st.info(
+        "Los outliers permiten identificar talento diferencial, perfiles críticos "
+        "o empleados con alto impacto económico pero posible riesgo de fuga."
+    )
+
+
+# ============================================================
+# MÓDULO 5: WORKFORCE ARCHETYPES
+# ============================================================
+
+elif module == "Workforce Archetypes":
+
+    st.header("Workforce Archetypes")
+
+    st.write("""
+    Este módulo segmenta la plantilla en arquetipos estratégicos según performance,
+    engagement, revenue, tenure y tipo de contribución.
+    """)
+
+    st.subheader("Distribución de arquetipos")
+
+    archetype_counts = df["archetype"].value_counts().reset_index()
+    archetype_counts.columns = ["archetype", "employees"]
+
+    fig = px.bar(
+        archetype_counts,
+        x="archetype",
+        y="employees",
+        title="Distribución de empleados por arquetipo"
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader("Arquetipos en 3D")
+
+    fig = px.scatter_3d(
+        df,
+        x="performance_score",
+        y="engagement_score",
+        z="tenure_years",
+        color="archetype",
+        size="revenue_generated",
+        hover_data=["employee_name", "department", "role"],
+        title="Workforce Archetypes 3D"
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader("Perfil medio por arquetipo")
+
+    archetype_profile = df.groupby("archetype")[
+        [
+            "performance_score",
+            "engagement_score",
+            "salary",
+            "revenue_generated",
+            "tenure_years",
+            "training_hours"
+        ]
+    ].mean().reset_index()
+
+    st.dataframe(archetype_profile)
+
+    st.success(
+        "Estos arquetipos ayudan a priorizar decisiones de retención, desarrollo, "
+        "movilidad interna y planes de sucesión."
+    )
+
+
+# ============================================================
+# DESCARGA DEL CSV ENRIQUECIDO
+# ============================================================
+
+st.sidebar.markdown("---")
+st.sidebar.subheader("Descarga de resultados")
+
+csv_output = df.to_csv(index=False).encode("utf-8")
+
+st.sidebar.download_button(
+    label="Descargar CSV enriquecido",
+    data=csv_output,
+    file_name="hr4techies_people_analytics_enriched.csv",
+    mime="text/csv"
+)
